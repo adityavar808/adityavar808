@@ -1,22 +1,22 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=adityavar808.adityavar808" />
 
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Aditya+Varshney!;" />
 </h1>
 
-<h3 align="center"AI/ML Learner | Experimenting with Algorithms, Data, and Models</h3>
+<h3 align="center">AI/ML Enthusiast | Learning Java, DSA, and Web Development</h3>
 
 <br/>
 
 <div align="center">
  
- 🔭 I’m currently working on **AI-powered projects**
+ 🔭 I’m currently working on **AI and ML-based projects**
 
- 🌱 I’m currently learning **DSA in Java, Complete Web Development, and Machine Learning models**
+ 🌱 I’m currently learning **DSA in Java, Machine Learning, and Web Development**
 
-💬 Ask me about **JavaScript, AI tools, Web Development, or anything [here](https://github.com/adityavar808/adityavar808/issues)**
+💬 Ask me about **Python, AI/ML, Java, or anything [here](https://github.com/adityavar808/adityavar808/issues)**
 
-⚡ Fun fact **I built a Cold Email Generator powered by AI!**
+⚡ Fun fact **I love experimenting with AI-powered applications!**
 
  </div>
  
@@ -37,7 +37,7 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,js,nodejs,flutter,tensorflow,opencv,mongodb,mysql,postgresql,python,github,firebase,git,arduino" />
+    <img src="https://skillicons.dev/icons?i=python,java,html,css,js,mysql,git,github,arduino,tensorflow,opencv" />
 </div>
 
 <br/>
@@ -46,7 +46,7 @@
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/KrishnaTanwars/KrishnaTanwars/output/github-contribution-grid-snake.svg" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/adityavar808/adityavar808/output/github-contribution-grid-snake.svg" />
   
   <br/><br/><br/>
 </div>
@@ -56,10 +56,10 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
-  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=KrishnaTanwars&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=KrishnaTanwars&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=adityavar808&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
+  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=adityavar808&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
   <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=KrishnaTanwars&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=adityavar808&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
 
 <br/><br/>
