@@ -14,7 +14,7 @@
 Aditya Varshney
 
 > skills --list
-Python, AI/ML, Java, Web Dev, DSA
+Python, AI/ML, Java, Web Dev, DSA, ML
 
 > currently_learning
 "Machine Learning & Web Development"
