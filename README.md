@@ -5,7 +5,7 @@
 </h1>
 
 
-<h3 align="center">AI/ML Enthusiast | Learning Java, DSA, and Web Development</h3>
+<h3 align="center">AI/ML Enthusiast | Learning Java, DSA, ML and Web Development</h3>
 
 <br/>
 
