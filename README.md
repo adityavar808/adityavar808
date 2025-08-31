@@ -30,7 +30,7 @@ Python, AI/ML, Java, Web Dev, DSA, ML
   <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF00" />
   </a>
-  <a href="https://github.com/adityavar808" target="_blank">
+  <a href="https://portfolioaditya-gamma.vercel.app/" target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=00FF00" /> 
   </a>
 </div>
