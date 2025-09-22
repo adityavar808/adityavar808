@@ -54,7 +54,7 @@ Python, AI/ML, Java, Web Dev, DSA, ML
 
 ![](https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00)
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=adityavar808)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=adityavar808&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00)
 
