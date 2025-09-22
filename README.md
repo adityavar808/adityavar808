@@ -1,3 +1,5 @@
+[![GitHub Streak](https://streak-stats.demolab.com?user=adityavar808&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=adityavar808.adityavar808" />
 
 <h1 align="center">
