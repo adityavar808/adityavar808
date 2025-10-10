@@ -10,9 +10,7 @@
 
 <!-- Hacker Terminal Section -->
 <div align="center">
-  
-![Terminal Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=600&height=180&lines=%3E+whoami;Aditya+Varshney;%3E+skills+--list;Python%2C+AI%2FML%2C+Java%2C+Web+Dev%2C+DSA%2C+ML;%3E+currently_learning;Machine+Learning+%26+Web+Development;%3E+fun_fact;"I+debug+at+3AM+like+a+true+hacker+%F0%9F%9F%A2")
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=1&pause=1000000&color=00FF00&center=true&vCenter=true&width=700&height=200&lines=%3E+whoami;Aditya+Varshney;%3E+skills+--list;Python%2C+AI%2FML%2C+Java%2C+Web+Dev%2C+DSA%2C+ML;%3E+currently_learning;Machine+Learning+%26+Web+Development;%3E+fun_fact;I+debug+at+3AM+like+a+true+hacker+%F0%9F%9F%A2" />
 </div>
 
 <br/>
