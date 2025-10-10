@@ -51,10 +51,7 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 
 <h2 align="center">🚀 Featured Projects 🚀</h2>
 
-- **AI-Driven Traffic Violation Detection System** — Detects violations in real-time using computer vision and deep learning.  
-- **Smart AgroMarket** — Provides real-time price trends and buyer access for farmers.  
-- **FileShare (Flask)** — Secure file-sharing web app with password protection and expiry.  
-- **Patient Monitoring System (IoT)** — Real-time health monitoring using sensors and ThingWorx.  
+- **AI-Driven Traffic Violation Detection System** — Detects violations in real-time using computer vision and deep learning.   
 - **Real-Time Video Analysis Project** — Performs live object tracking and anomaly detection using OpenCV & YOLOv8.
 
 <br/>
