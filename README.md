@@ -1,17 +1,15 @@
-<div align="center">
+<!-- <div align="center">
   <img src="https://i.gifer.com/7VE.gif" width="600" alt="matrix">
-</div>
+</div> -->
 
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&height=60&lines=System+Activated...;Access+Granted...;Hello+World!+I'm+Aditya+Varshney;AI%2FML+Engineer+in+progress..." />
 </h1>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213760705-0d5bf320-4f43-4352-b74b-0889ae726bf7.gif" width="40" />
-  &nbsp;
+ 
   <i><b>AI/ML Enthusiast | Learning Java, DSA, ML and Web Development</b></i>
-  &nbsp;
-  <img src="https://user-images.githubusercontent.com/74038190/213760705-0d5bf320-4f43-4352-b74b-0889ae726bf7.gif" width="40" />
+  
 </div>
 
 <br>
@@ -31,16 +29,7 @@
 
 ---
 
-### <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="25" /> Menu 
-- [About Me](#-about-me)
-- [Skills & Technologies](#️-skills--technologies)
-- [Featured Projects](#-featured-projects)
-- [GitHub Stats](#-github-stats)
-- [Contribution Graph](#-my-contribution-graph)
-
----
-
-## 👨‍💻 About Me <a name="-about-me"></a> [🔝](#menu)
+## 👨‍💻 About Me <a name="-about-me"></a>
 <img align="right" src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/8aa99f6c-267d-4977-9cd3-1a4c11675863" width="400">
 
 Hello! I'm **Aditya Varshney**, an aspiring AI/ML Engineer with a passion for building intelligent systems and solving complex problems. I'm currently honing my skills in Machine Learning, Deep Learning, and Web Development. I thrive on debugging challenges late at night and turning caffeine into code!
@@ -62,7 +51,7 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 
 ---
 
-## 🛠️ Skills & Technologies <a name="️-skills--technologies"></a> [🔝](#menu)
+## 🛠️ Skills & Technologies <a name="️-skills--technologies"></a>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,java,html,css,js,mysql,git,github,arduino,tensorflow,opencv" />
 </div>
@@ -73,7 +62,7 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 
 ---
 
-## 🚀 Featured Projects <a name="-featured-projects"></a> [🔝](#menu)
+## 🚀 Featured Projects <a name="-featured-projects"></a>
 
 - **AI-Driven Traffic Violation Detection System**
   - *Detects traffic violations in real-time using computer vision and deep learning models.*
@@ -82,7 +71,7 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 
 ---
 
-## 📊 GitHub Stats <a name="-github-stats"></a> [🔝](#menu)
+## 📊 GitHub Stats <a name="-github-stats"></a>
 <div align="center">
 
 ![](https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00)
@@ -95,7 +84,7 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 
 ---
 
-## 🐍 My Contribution Graph <a name="-my-contribution-graph"></a> [🔝](#menu)
+## 🐍 My Contribution Graph <a name="-my-contribution-graph"></a>
 <div align="center">
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </div>
