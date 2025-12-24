@@ -1,7 +1,3 @@
-<!-- <div align="center">
-  <img src="https://i.gifer.com/7VE.gif" width="600" alt="matrix">
-</div> -->
-
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&height=60&lines=System+Activated...;Access+Granted...;Hello+World!+I'm+Aditya+Varshney;AI%2FML+Engineer+in+progress..." />
 </h1>
@@ -88,6 +84,5 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 <div align="center">
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </div>
-![GitHub Snake](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
