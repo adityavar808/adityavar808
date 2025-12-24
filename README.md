@@ -88,5 +88,7 @@ Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
 <div align="center">
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </div>
+![GitHub Snake](github.com)
+
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
