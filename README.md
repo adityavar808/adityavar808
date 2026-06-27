@@ -1,140 +1,66 @@
-<div align="center">
-  
-  <!-- Glowing Cyberpunk Title Art -->
-  <pre>
-<font color="#00ff66"><b>
- █████╗ ██████╗ ██╗████████╗██╗   ██╗ █████╗ ██╗   ██╗ █████╗ ██████╗  █████╗  ██████╗  █████╗ 
-██╔══██╗██╔══██╗██║╚══██╔══╝╚██╗ ██╔╝██╔══██╗ ██║   ██║██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔══██╗
-███████║██║  ██║██║   ██║    ╚████╔╝ ███████║ ██║   ██║███████║██████╔╝╚█████╔╝██║   ██║╚█████╔╝
-██╔══██║██║  ██║██║   ██║     ╚██╔╝  ██╔══██║ ╚██╗ ██╔╝██╔══██║██╔══██╗██╔══██╗██║   ██║██╔══██╗
-██║  ██║██████╔╝██║   ██║      ██║   ██║  ██║  ╚████╔╝ ██║  ██║██║  ██║╚█████╔╝╚██████╔╝╚█████╔╝
-╚═╝  ╚═╝╚═════╝ ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝  ╚═════╝  ╚════╝ 
-</b></font>
-  </pre>
+# Aditya Varshney
 
-  <!-- Custom Animated HUD Header -->
-  <img src="assets/header-hud.svg" width="100%" alt="Tactical Command System" />
+**Aspiring AI/ML Engineer | Deep Learning & Computer Vision Developer**
 
-  <br><br>
-
-  <!-- Hardware Resource & Diagnostic Grid -->
-  <img src="assets/hardware-hud.svg" width="100%" alt="System Resource Metrics" />
-
-</div>
-
-<br>
-
-### 📡 INTERACTIVE SYSTEM CONSOLE // MOCK SHELL
-
-```bash
-$ whoami
-operator: adityavar808 // Aditya Varshney
-status: ACTIVE [SYS_OK]
-bridge_ip: 127.0.0.1 (localhost)
-
-$ sysctl -n hw.neural_engine
-[ACTIVE] Tensor Core processing array online (9.87 GFLOPS load capacity)
-
-$ cat protocols.json
-{
-  "core_focus": [
-    "Computer Vision & Pattern Recognition",
-    "Deep Learning Architecture Design",
-    "Real-time Inference Optimization"
-  ],
-  "languages": ["Python", "Java", "Javascript", "C++ (Intermediate)"],
-  "libraries": ["PyTorch", "TensorFlow", "OpenCV", "Keras", "DeepSORT"]
-}
-```
-
----
-
-### 🧠 CORE TELEMETRY // CONNECTIVE NEURAL SCHEMATIC
-
-<div align="center">
-  <!-- Interactive-looking Connected Circuit Board -->
-  <img src="assets/skills-hud.svg" width="100%" alt="Connected Skills Circuitry Map" />
+<div align="left">
+  <a href="mailto:adityavarshney808@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-adityavarshney808%40gmail.com-red?style=flat-square&logo=gmail" alt="Gmail" />
+  </a>
+  <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-adityaavarshney-blue?style=flat-square&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://portfolioaditya-gamma.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-aditya--dev-black?style=flat-square&logo=vercel" alt="Portfolio" />
+  </a>
 </div>
 
 ---
 
-### 📊 VECTOR ANALYTICS // PROFICIENCY SWEEP
+### 🚀 About Me
 
-<div align="center">
-  <!-- Custom Radar Skills Chart -->
-  <img src="assets/chart-hud.svg" width="100%" alt="5-Axis Radar Chart Diagnostics" />
+Hello! I am **Aditya Varshney**, an AI/ML developer focused on building intelligent computer vision pipelines and deep learning systems. I build real-time visual analysis applications, train deep neural network models, and construct robust web integrations.
+
+---
+
+### 🛠️ Skills & Technologies
+
+Here is a look at my technical core stack using sleek, bubble-shaped [ICONIC](https://github.com/YuheshPandian/ICONIC) icons:
+
+<div align="left" style="display: flex; gap: 8px; flex-wrap: wrap;">
+  <img src="https://iconic-api.onrender.com/dark/python" width="50px" alt="Python" title="Python" />
+  <img src="https://iconic-api.onrender.com/dark/java" width="50px" alt="Java" title="Java" />
+  <img src="https://iconic-api.onrender.com/dark/tensorflow" width="50px" alt="TensorFlow" title="TensorFlow" />
+  <img src="https://iconic-api.onrender.com/dark/mysql" width="50px" alt="MySQL" title="MySQL" />
+  <img src="https://iconic-api.onrender.com/dark/git" width="50px" alt="Git" title="Git" />
+  <img src="https://iconic-api.onrender.com/dark/github" width="50px" alt="GitHub" title="GitHub" />
+  <img src="https://iconic-api.onrender.com/dark/js" width="50px" alt="JavaScript" title="JavaScript" />
+  <img src="https://iconic-api.onrender.com/dark/html" width="50px" alt="HTML" title="HTML" />
+  <img src="https://iconic-api.onrender.com/dark/css" width="50px" alt="CSS" title="CSS" />
 </div>
 
 ---
 
-### 📂 SECURE PROJECT DIRECTORIES // ENCRYPTED LOGS
+### 📂 Featured Projects
 
-<details>
-  <summary>📁 <b>[LOG_ENTRY_094] : AI-DRIVEN TRAFFIC VIOLATION DETECTION PIPELINE</b></summary>
-  <br>
-  <blockquote>
-    <b>[CLASSIFICATION]</b>: Computer Vision / Autonomous Surveillance / Object Detection<br>
-    <b>[DESCRIPTION]</b>: Engineered a high-performance roadway surveillance pipeline. Automates vehicle classification, tracks multi-frame speed coordinates, and flags helmet compliance &amp; red-light violations in real time.<br>
-    <b>[ENGINE]</b>: YOLOv8, PyTorch, DeepSORT, OpenCV, Python<br>
-    <b>[STORAGE_BLOCK]</b>: <code>[ACTIVE_DEPLOYMENT // SEGMENT_0xF49A]</code>
-  </blockquote>
-</details>
-
-<details>
-  <summary>📁 <b>[LOG_ENTRY_095] : STREAMING VIDEO VECTOR SCANNER</b></summary>
-  <br>
-  <blockquote>
-    <b>[CLASSIFICATION]</b>: Real-Time Stream Analytics / Spatial Motion Tracking<br>
-    <b>[DESCRIPTION]</b>: Architected a low-latency surveillance scanning node. Tracks dozens of simultaneous objects, maps coordinate matrices across user-defined zones, and triggers automated network requests on security breaches.<br>
-    <b>[ENGINE]</b>: OpenCV, TensorFlow Lite, FastAPI, Python<br>
-    <b>[STORAGE_BLOCK]</b>: <code>[STABLE_COMPILATION // SEGMENT_0x112B]</code>
-  </blockquote>
-</details>
+* **Traffic Violation Detection Pipeline**
+  * *Real-time traffic surveillance system built to track vehicle speed, helmet compliance, and lane infractions using custom computer vision models.*
+  * `YOLOv8` `PyTorch` `DeepSORT` `OpenCV` `Python`
+* **Streaming Video Vector Scanner**
+  * *Low-latency live object tracking framework that scans frames and triggers security event requests based on crossing lines or boundary conditions.*
+  * `OpenCV` `TensorFlow Lite` `FastAPI` `Python`
 
 ---
 
-### 🛰️ GLOBAL COORDINATE TARGETING // RADAR Lock
+### 📊 GitHub Stats
 
-<div align="center">
-  <!-- Tactical New Delhi Coordinate Target Map -->
-  <img src="assets/radar-hud.svg" width="100%" alt="New Delhi Target Radar Scan" />
-</div>
-
----
-
-### 🖥️ LIVE MAINFRAME NETWORK DUPLEX
-
-<div align="center">
-  <!-- Network matrix traffic chart -->
-  <img src="assets/activity-hud.svg" width="100%" alt="Mainframe Traffic Chart" />
-</div>
-
-<br>
-
-```
-> CORE PROCESS MONITOR [ACTIVE]
------------------------------------------------------------------------------
-PID      PROCESS NAME               CPU      RAM      STATUS      TARGET
------------------------------------------------------------------------------
-[0x8A1]  traffic_violator_yolov8    85.2%    4.2GB    RUNNING     Stream_01
-[0x9F2]  anomaly_tracker_sort       62.4%    2.1GB    RUNNING     Stream_02
-[0x3B4]  neural_flow_calibrator     12.8%    1.8GB    STABLE      Epoch_240
-[0xC18]  web_systems_vercel_node    02.1%    0.4GB    IDLE        portfolio
------------------------------------------------------------------------------
-```
-
----
-
-### 📊 MAINFRAME TELEMETRY // DYNAMIC STATS
-
-<div align="center">
+<div align="left">
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00" width="95%" />
+      <td width="50%" align="left">
+        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=transparent&hide_border=true" width="95%" />
       </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00" width="95%" />
+      <td width="50%" align="left">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=transparent&hide_border=true" width="95%" />
       </td>
     </tr>
   </table>
@@ -142,46 +68,13 @@ PID      PROCESS NAME               CPU      RAM      STATUS      TARGET
 
 <br>
 
-<div align="center">
+<div align="left">
   <!-- Contribution Snake tracking -->
   <img alt="Snake grid visualizer" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</div>
-
----
-
-### 🔒 DECRYPTED SECRET VAULT // CIPHERTEXT
-
-```text
-┌── [DECRYPTED VAULT NODE: #SECRET_KEY] ────────────────────────────────────┐
-│                                                                           │
-│  CIPHERTEXT:                                                              │
-│  "QnVpbGRpbmcgdGhlIGZ1dHVyZSBvZiBBSS9NTCBvbmUgZXBvY2ggYXQgYSB0aW1lLi4u"    │
-│                                                                           │
-│  DECRYPTION PROTOCOL:                                                     │
-│  Run base64 decode in your console to decrypt operator statement:         │
-│  $ echo "QnVpbGRpbmc..." | base64 --decode                                │
-│                                                                           │
-└───────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-### 📡 ESTABLISH COMM_LINK // CHANNELS
-
-<div align="center">
-  <a href="mailto:adityavarshney808@gmail.com">
-    <img src="https://img.shields.io/badge/GMAIL-sys.init-00ff66?style=for-the-badge&logo=gmail&logoColor=000000" alt="Gmail Connect" />
-  </a>
-  <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-comm.link-00ff66?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn Connect" />
-  </a>
-  <a href="https://portfolioaditya-gamma.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/PORTFOLIO.net-web.host-00ff66?style=for-the-badge&logo=vercel&logoColor=000000" alt="Portfolio Host" />
-  </a>
 </div>
 
 <br>
 
 <div align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=adityavar808.adityavar808&color=00ff66" alt="Visitor Counter" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=adityavar808.adityavar808&color=black" alt="Visitor Counter" />
 </div>
