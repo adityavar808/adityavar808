@@ -1,88 +1,104 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&height=60&lines=System+Activated...;Access+Granted...;Hello+World!+I'm+Aditya+Varshney;AI%2FML+Engineer+in+progress..." />
-</h1>
-
 <div align="center">
- 
-  <i><b>AI/ML Enthusiast | Learning Java, DSA, ML and Web Development</b></i>
-  
+  <!-- Custom Futuristic Animated HUD Header -->
+  <img src="assets/header-hud.svg" width="100%" alt="Aditya Varshney HUD Header" />
 </div>
 
 <br>
 
-<div align="center"> 
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│  [OPERATOR] : Aditya Varshney                                            │
+│  [ROLE]     : Aspiring AI/ML Engineer & Systems Developer                │
+│  [SHELL]    : /usr/bin/neural-link                                       │
+│  [MISSION]  : Translate coffee, math, and tensor arrays into system code │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🛡️ SYSTEM DIAGNOSTICS // BIOGRAPHY
+
+Hello, I'm **Aditya Varshney**, an AI/ML developer focused on building high-performance computer vision pipelines and intelligent systems. I write custom models that process visual data in real-time, solve complex analytical problems, and architect clean software solutions.
+
+I build neural network topologies, optimize video detection models, and construct backend systems that tie intelligent agents to the web.
+
+---
+
+### 📊 CORE TELEMETRY // LOADED SKILLS
+
+<div align="center">
+  <!-- Custom Futuristic Skills Dashboard -->
+  <img src="assets/skills-hud.svg" width="100%" alt="Skills Diagnostics Dashboard" />
+</div>
+
+---
+
+### 📂 SECURE PROJECT DIRECTORIES // LOGS
+
+<details>
+  <summary>📁 <b>[LOG_ENTRY_094] : TRAFFIC VIOLATION DETECTION PIPELINE</b></summary>
+  <br>
+  <blockquote>
+    <b>[CLASSIFICATION]</b>: Computer Vision / Autonomous Intelligence / Object Detection<br>
+    <b>[DESCRIPTION]</b>: Designed and implemented a real-time smart surveillance pipeline targeting roadway metrics. The system automates vehicle recognition, speed approximations, lane discipline checks, and helmet compliance tracking.<br>
+    <b>[ENGINE]</b>: YOLOv8, PyTorch, DeepSORT, Python, OpenCV<br>
+    <b>[METRICS]</b>: <code>[ACTIVE_DEPLOYMENT // STABLE]</code>
+  </blockquote>
+</details>
+
+<details>
+  <summary>📁 <b>[LOG_ENTRY_095] : STREAMING VIDEO VECTOR SCANNER</b></summary>
+  <br>
+  <blockquote>
+    <b>[CLASSIFICATION]</b>: Real-Time Stream Processing / Multi-Object Tracking<br>
+    <b>[DESCRIPTION]</b>: Developed a low-latency scanning framework for surveillance streams. Integrates edge inference capability, custom bounding-box optimizations, and automated event triggers when specific crosshairs or boundary thresholds are breached.<br>
+    <b>[ENGINE]</b>: OpenCV, TensorFlow Lite, FastAPI, Python<br>
+    <b>[METRICS]</b>: <code>[CALIBRATED // SECURE]</code>
+  </blockquote>
+</details>
+
+---
+
+### 📡 NETWORK BRIDGE // STATS INTERACTION
+
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00" width="100%" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+<div align="center">
+  <!-- Contribution Snake eating stats -->
+  <img alt="Snake contribution tracker" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</div>
+
+---
+
+### 📡 COMM_LINKS // ESTABLISH CONNECTION
+
+<div align="center">
   <a href="mailto:adityavarshney808@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=red" />
+    <img src="https://img.shields.io/badge/GMAIL-sys.init-00ff66?style=for-the-badge&logo=gmail&logoColor=000000" alt="Gmail Badge" />
   </a>
   <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF00" />
+    <img src="https://img.shields.io/badge/LINKEDIN-comm.link-00ff66?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn Badge" />
   </a>
   <a href="https://portfolioaditya-gamma.vercel.app/" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=00FF00" /> 
+    <img src="https://img.shields.io/badge/PORTFOLIO.net-web.host-00ff66?style=for-the-badge&logo=vercel&logoColor=000000" alt="Portfolio Badge" />
   </a>
-  <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=adityavar808.adityavar808" />
 </div>
 
----
-
-## 👨‍💻 About Me <a name="-about-me"></a>
-<img align="right" src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/8aa99f6c-267d-4977-9cd3-1a4c11675863" width="400">
-
-Hello! I'm **Aditya Varshney**, an aspiring AI/ML Engineer with a passion for building intelligent systems and solving complex problems. I'm currently honing my skills in Machine Learning, Deep Learning, and Web Development. I thrive on debugging challenges late at night and turning caffeine into code!
-
-```bash
-> whoami
-Aditya Varshney
-
-> skills --list
-Python, AI/ML, Java, Web Dev, DSA, OpenCV, TensorFlow
-
-> currently_learning
-"Machine Learning, Deep Learning & Web Development"
-
-> fun_fact
-"I debug at 3AM like a true hacker 🟢"
-```
 <br>
 
----
-
-## 🛠️ Skills & Technologies <a name="️-skills--technologies"></a>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,js,mysql,git,github,arduino,tensorflow,opencv" />
+<div align="right">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=adityavar808.adityavar808&color=00ff66" alt="Telemetry Counter" />
 </div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
-</div>
-
----
-
-## 🚀 Featured Projects <a name="-featured-projects"></a>
-
-- **AI-Driven Traffic Violation Detection System**
-  - *Detects traffic violations in real-time using computer vision and deep learning models.*
-- **Real-Time Video Analysis Project**
-  - *Performs live object tracking and anomaly detection in video streams using OpenCV & YOLOv8.*
-
----
-
-## 📊 GitHub Stats <a name="-github-stats"></a>
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00)
-    
-[![GitHub Streak](https://github-readme-streak-stats-salesp07.vercel.app/?user=adityavar808&count_private=true&theme=react&border_radius=10)](https://git.io/streak-stats)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00)
-
-</div>
-
----
-
-## 🐍 My Contribution Graph <a name="-my-contribution-graph"></a>
-<div align="center">
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
