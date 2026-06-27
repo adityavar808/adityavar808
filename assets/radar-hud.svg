@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00ff66" stroke-width="0.7" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <style>
+    .bg {
+      fill: #050806;
+      stroke: #00ff66;
+      stroke-width: 1.5;
+      stroke-opacity: 0.45;
+    }
+    .hud-text {
+      font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+      fill: #00ff66;
+      font-weight: bold;
+    }
+    .panel-box {
+      fill: #0b110e;
+      stroke: #00ff66;
+      stroke-width: 1;
+      stroke-opacity: 0.2;
+    }
+    .target-locked {
+      fill: #ffffff;
+      animation: blink 0.5s infinite;
+      filter: url(#glow);
+    }
+    
+    /* Rotation and orbits */
+    .spin-cw { transform-origin: 120px 100px; animation: orbit-cw 18s linear infinite; }
+    .orbit-slow { transform-origin: 680px 100px; animation: orbit-cw 12s linear infinite; }
+    .orbit-fast { transform-origin: 680px 100px; animation: orbit-ccw 6s linear infinite; }
+
+    @keyframes orbit-cw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes orbit-ccw {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    .pulse-glow { animation: pulse 2.5s infinite ease-in-out; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.85; }
+    }
+  </style>
+
+  <!-- Panel Background -->
+  <rect width="800" height="200" rx="8" class="bg" />
+  <rect width="800" height="200" rx="8" fill="url(#grid)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 2 15 L 2 2 L 15 2" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <path d="M 798 15 L 798 2 L 785 2" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <path d="M 2 185 L 2 198 L 15 198" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <path d="M 798 185 L 798 198 L 785 198" fill="none" stroke="#00ff66" stroke-width="2.5" />
+
+  <text x="25" y="24" class="hud-text" font-size="10" fill-opacity="0.5">> SATELLITE_ORBITAL_SCANNER // LOCK_ON</text>
+
+  <!-- Panel Dividers -->
+  <line x1="240" y1="20" x2="240" y2="180" stroke="#00ff66" stroke-opacity="0.2" stroke-dasharray="4, 4" />
+  <line x1="560" y1="20" x2="560" y2="180" stroke="#00ff66" stroke-opacity="0.2" stroke-dasharray="4, 4" />
+
+  <!-- ================= LEFT: LOCAL POSITION RADAR (Center 120, 100) ================= -->
+  <g>
+    <!-- Radar Rings -->
+    <circle cx="120" cy="100" r="65" fill="none" stroke="#00ff66" stroke-width="1" stroke-opacity="0.15" />
+    <circle cx="120" cy="100" r="45" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.2" />
+    <circle cx="120" cy="100" r="25" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.15" stroke-dasharray="2, 2" />
+    
+    <!-- Radar crosshair lines -->
+    <line x1="50" y1="100" x2="190" y2="100" stroke="#00ff66" stroke-opacity="0.2" />
+    <line x1="120" y1="30" x2="120" y2="170" stroke="#00ff66" stroke-opacity="0.2" />
+
+    <!-- Sweeper vector line -->
+    <g class="spin-cw">
+      <line x1="120" y1="100" x2="175" y2="65" stroke="#00ff66" stroke-width="1.8" filter="url(#glow)" />
+      <line x1="120" y1="100" x2="160" y2="50" stroke="#00ff66" stroke-opacity="0.4" />
+      <line x1="120" y1="100" x2="140" y2="40" stroke="#00ff66" stroke-opacity="0.1" />
+    </g>
+
+    <!-- Glowing locked target ping (representing New Delhi grid) -->
+    <!-- Positioned slightly offset at (140, 80) -->
+    <g transform="translate(140, 80)">
+      <circle r="4" fill="#00ff66" class="target-locked" />
+      <rect x="-6" y="-6" width="12" height="12" fill="none" stroke="#00ff66" stroke-width="1" class="pulse-glow" />
+      <!-- Target lock brackets -->
+      <path d="M -9 -4 L -9 -9 L -4 -9" fill="none" stroke="#00ff66" stroke-width="1" />
+      <path d="M 9 -4 L 9 -9 L 4 -9" fill="none" stroke="#00ff66" stroke-width="1" />
+      <path d="M -9 4 L -9 9 L -4 9" fill="none" stroke="#00ff66" stroke-width="1" />
+      <path d="M 9 4 L 9 9 L 4 9" fill="none" stroke="#00ff66" stroke-width="1" />
+      <text x="12" y="3" class="hud-text" font-size="8" fill="#ffffff" filter="url(#glow)">TARGET_ACQUIRED</text>
+    </g>
+  </g>
+
+  <!-- ================= MIDDLE: SCAN SPECIFICATIONS ================= -->
+  <g transform="translate(260, 40)">
+    <rect width="280" height="130" class="panel-box" rx="4" />
+    
+    <g transform="translate(15, 20)">
+      <text x="0" y="10" class="hud-text" font-size="10" fill-opacity="0.5">TARGET IDENT:</text>
+      <text x="110" y="10" class="hud-text" font-size="10" fill="#ffffff">ADITYA_VAR808 // OPERATOR</text>
+
+      <text x="0" y="28" class="hud-text" font-size="10" fill-opacity="0.5">LAT/LONG GRID:</text>
+      <text x="110" y="28" class="hud-text" font-size="10" fill="#ffffff">28.6139 N / 77.2090 E</text>
+
+      <text x="0" y="46" class="hud-text" font-size="10" fill-opacity="0.5">LOCATION REF:</text>
+      <text x="110" y="46" class="hud-text" font-size="10" fill="#00ff66">NEW DELHI, INDIA</text>
+
+      <text x="0" y="64" class="hud-text" font-size="10" fill-opacity="0.5">VECTOR STATUS:</text>
+      <text x="110" y="64" class="hud-text" font-size="10" fill="#ffffff">ORBITAL_LOCK [100% STABLE]</text>
+
+      <text x="0" y="82" class="hud-text" font-size="10" fill-opacity="0.5">RECEIVER FREQ:</text>
+      <text x="110" y="82" class="hud-text" font-size="10" fill="#00ff66">S-BAND // 2.45 GHz</text>
+
+      <text x="0" y="100" class="hud-text" font-size="10" fill-opacity="0.5">SIGNAL QUALITY:</text>
+      <text x="110" y="100" class="hud-text" font-size="10" fill="#ffffff">99.87% [SIG_GAIN_EXCELLENT]</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT: SAT ORBITAL SWEEP (Center 680, 100) ================= -->
+  <g>
+    <!-- Planetary globe circle -->
+    <circle cx="680" cy="100" r="32" fill="#00ff66" fill-opacity="0.05" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.4" />
+    <circle cx="680" cy="100" r="12" fill="#00ff66" class="pulse-glow" filter="url(#glow)" />
+    
+    <!-- Outer orbits -->
+    <circle cx="680" cy="100" r="50" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.15" />
+    <circle cx="680" cy="100" r="70" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.1" stroke-dasharray="5, 5" />
+    
+    <!-- Outer orbit tech rings -->
+    <polygon points="680,35 736,68 736,132 680,165 624,132 624,68" fill="none" stroke="#00ff66" stroke-opacity="0.1" stroke-width="1" />
+
+    <!-- Satellite 1 (Inner orbit slow) -->
+    <g class="orbit-slow">
+      <circle cx="680" cy="50" r="4.5" fill="#00ff66" filter="url(#glow)" />
+      <path d="M 680 50 L 690 40 L 705 40" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.6" />
+      <text x="708" y="43" class="hud-text" font-size="7">SAT_01</text>
+    </g>
+
+    <!-- Satellite 2 (Outer orbit fast counter) -->
+    <g class="orbit-fast">
+      <circle cx="680" cy="170" r="3.5" fill="#ffffff" />
+      <path d="M 680 170 L 670 180 L 650 180" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.6" />
+      <text x="622" y="183" class="hud-text" font-size="7">SAT_02</text>
+    </g>
+  </g>
+</svg>

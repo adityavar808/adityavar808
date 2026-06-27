@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="280">
   <defs>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    
+
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00ff66" stroke-width="0.7" stroke-opacity="0.05" />
     </pattern>
@@ -15,148 +15,196 @@
 
   <style>
     .bg {
-      fill: #060907;
+      fill: #050806;
       stroke: #00ff66;
       stroke-width: 1.5;
-      stroke-opacity: 0.4;
+      stroke-opacity: 0.45;
     }
-    .card-bg {
+    .card {
       fill: #0b110e;
       stroke: #00ff66;
-      stroke-width: 1;
-      stroke-opacity: 0.2;
+      stroke-width: 1.2;
+      stroke-opacity: 0.3;
+      transition: stroke-opacity 0.3s;
     }
     .hud-text {
       font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
       fill: #00ff66;
       font-weight: bold;
     }
-    .module-num {
-      font-size: 9px;
-      fill: #00ff66;
-      fill-opacity: 0.5;
-    }
-    .module-title {
-      font-size: 12px;
-      letter-spacing: 1px;
+    .core-lbl {
+      font-size: 11px;
       fill: #ffffff;
-      fill-opacity: 0.9;
+      letter-spacing: 1.5px;
+      filter: url(#glow);
     }
-    .module-status {
+    .skill-title {
+      font-size: 11px;
+      fill: #ffffff;
+      fill-opacity: 0.95;
+    }
+    .skill-sub {
       font-size: 9px;
       fill: #00ff66;
       fill-opacity: 0.6;
     }
-    .bar-bg {
-      fill: #050806;
+    
+    /* Base Circuit Traces */
+    .circuit-bg {
+      fill: none;
       stroke: #00ff66;
-      stroke-opacity: 0.15;
-    }
-    .bar-fill {
-      fill: #00ff66;
-      filter: url(#glow);
-      opacity: 0.8;
-    }
-    .blink {
-      animation: blink-anim 1.5s infinite;
+      stroke-width: 1.5;
+      stroke-opacity: 0.1;
     }
     
-    /* Dynamic progress bar loading */
-    .fill-ml { animation: load-ml 2.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
-    .fill-dl { animation: load-dl 2.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
-    .fill-web { animation: load-web 2.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
-    .fill-cv { animation: load-cv 2.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
-    .fill-dsa { animation: load-dsa 2.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
-
-    @keyframes blink-anim {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 1; }
+    /* Running Pulse Traces */
+    .circuit-pulse {
+      fill: none;
+      stroke: #00ff66;
+      stroke-width: 2.5;
+      stroke-dasharray: 10, 40;
+      filter: url(#glow);
+      animation: pulse-flow 2s linear infinite;
     }
-    @keyframes load-ml { from { width: 0px; } to { width: 160px; } }
-    @keyframes load-dl { from { width: 0px; } to { width: 145px; } }
-    @keyframes load-web { from { width: 0px; } to { width: 135px; } }
-    @keyframes load-cv { from { width: 0px; } to { width: 150px; } }
-    @keyframes load-dsa { from { width: 0px; } to { width: 140px; } }
+    
+    .circuit-pulse-delayed {
+      fill: none;
+      stroke: #00ff66;
+      stroke-width: 2.5;
+      stroke-dasharray: 10, 40;
+      filter: url(#glow);
+      animation: pulse-flow 2s linear infinite;
+      animation-delay: 1s;
+    }
+
+    /* Core Pulsing Glow */
+    .core-glow {
+      animation: pulse-core 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-flow {
+      from { stroke-dashoffset: 50; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse-core {
+      0%, 100% { transform: scale(1); opacity: 0.3; }
+      50% { transform: scale(1.08); opacity: 0.75; }
+    }
+    .spin-cw { transform-origin: center; animation: spin-cw 25s linear infinite; }
+    @keyframes spin-cw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
   </style>
 
-  <!-- Outer frame -->
-  <rect width="800" height="220" rx="8" class="bg" />
-  <rect width="800" height="220" rx="8" fill="url(#grid)" />
+  <!-- Panel Frame -->
+  <rect width="800" height="280" rx="8" class="bg" />
+  <rect width="800" height="280" rx="8" fill="url(#grid)" />
 
-  <!-- Corner decorations -->
-  <path d="M 2 15 L 2 2 L 15 2" fill="none" stroke="#00ff66" stroke-width="2.5" />
-  <path d="M 798 15 L 798 2 L 785 2" fill="none" stroke="#00ff66" stroke-width="2.5" />
-  <path d="M 2 205 L 2 218 L 15 218" fill="none" stroke="#00ff66" stroke-width="2.5" />
-  <path d="M 798 205 L 798 218 L 785 218" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <!-- Corner Brackets -->
+  <path d="M 2 20 L 2 2 L 20 2" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <path d="M 798 20 L 798 2 L 780 2" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <path d="M 2 260 L 2 278 L 20 278" fill="none" stroke="#00ff66" stroke-width="2.5" />
+  <path d="M 798 260 L 798 278 L 780 278" fill="none" stroke="#00ff66" stroke-width="2.5" />
 
-  <!-- Section Header -->
-  <g transform="translate(20, 25)">
-    <text class="hud-text" font-size="11" fill-opacity="0.5">> LOADED_SKILL_MODULES // STACK_DIAGNOSTIC</text>
-    <line x1="0" y1="8" x2="760" y2="8" stroke="#00ff66" stroke-opacity="0.2" />
+  <!-- Title Indicator -->
+  <text x="25" y="24" class="hud-text" font-size="10" fill-opacity="0.5">> COGNITIVE_SCHEMATIC // NEURAL_FLOW</text>
+
+  <!-- ================= CIRCUIT LINES (COGNITIVE CORE -> CARDS) ================= -->
+  <!-- Center Core = (400, 140) -->
+  
+  <!-- Left-Top Card Trace: (400,140) -> (140, 75) -->
+  <path d="M 400 140 L 320 140 L 260 75 L 240 75" class="circuit-bg" />
+  <path d="M 400 140 L 320 140 L 260 75 L 240 75" class="circuit-pulse" />
+
+  <!-- Right-Top Card Trace: (400,140) -> (660, 75) -->
+  <path d="M 400 140 L 480 140 L 540 75 L 560 75" class="circuit-bg" />
+  <path d="M 400 140 L 480 140 L 540 75 L 560 75" class="circuit-pulse" />
+
+  <!-- Left-Bottom Card Trace: (400,140) -> (140, 205) -->
+  <path d="M 400 140 L 320 140 L 260 205 L 240 205" class="circuit-bg" />
+  <path d="M 400 140 L 320 140 L 260 205 L 240 205" class="circuit-pulse-delayed" />
+
+  <!-- Right-Bottom Card Trace: (400,140) -> (660, 205) -->
+  <path d="M 400 140 L 480 140 L 540 205 L 560 205" class="circuit-bg" />
+  <path d="M 400 140 L 480 140 L 540 205 L 560 205" class="circuit-pulse-delayed" />
+
+  <!-- Center-Bottom Card Trace: (400,140) -> (400, 205) -->
+  <path d="M 400 140 L 400 205" class="circuit-bg" />
+  <path d="M 400 140 L 400 205" class="circuit-pulse" />
+
+
+  <!-- ================= CENTRAL COGNITIVE CORE (400, 140) ================= -->
+  <g transform="translate(400, 140)">
+    <!-- Core Pulsing Shield -->
+    <circle r="42" fill="none" stroke="#00ff66" stroke-width="1.2" stroke-opacity="0.15" />
+    <circle r="36" fill="#00ff66" fill-opacity="0.05" class="core-glow" />
+    <circle r="36" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="10, 6" class="spin-cw" style="transform-origin: 0px 0px;" />
+    
+    <!-- Central Active Reactor -->
+    <circle r="15" fill="#00ff66" class="core-glow" filter="url(#glow)" />
+    <circle r="6" fill="#ffffff" />
+    
+    <text x="0" y="55" class="hud-text core-lbl" text-anchor="middle" font-size="9">COGNITIVE_CORE</text>
   </g>
 
-  <!-- ================= CARD 1: MACHINE LEARNING (Col 1, Row 1) ================= -->
-  <g transform="translate(20, 50)">
-    <rect width="240" height="65" rx="4" class="card-bg" />
-    <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.6" />
-    <text x="10" y="16" class="hud-text module-num">MOD_01 // SCI_KIT</text>
-    <text x="10" y="32" class="hud-text module-title">MACHINE LEARNING</text>
-    <text x="10" y="44" class="hud-text module-status">> STATUS: OPTIMIZED</text>
-    <!-- Progress bar -->
-    <rect x="10" y="50" width="180" height="6" class="bar-bg" rx="1" />
-    <rect x="10" y="50" height="6" class="bar-fill fill-ml" rx="1" />
-    <text x="200" y="56" class="hud-text blink" font-size="9">90%</text>
+
+  <!-- ================= SKILL MODULE CARDS ================= -->
+
+  <!-- 1. MACHINE LEARNING (Left-Top) -->
+  <g transform="translate(25, 40)">
+    <rect width="215" height="70" rx="4" class="card" />
+    <path d="M 0 12 L 0 0 L 12 0" fill="none" stroke="#00ff66" stroke-width="2" />
+    <!-- Telemetry elements inside card -->
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // ML.ENGINE.01</text>
+    <text x="10" y="32" class="hud-text skill-title">MACHINE LEARNING</text>
+    <text x="10" y="46" class="hud-text skill-sub">> Scikit-Learn // Data Models</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: FULLY_OPTIMIZED ]</text>
+    <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
-  <!-- ================= CARD 2: DEEP LEARNING (Col 2, Row 1) ================= -->
-  <g transform="translate(280, 50)">
-    <rect width="240" height="65" rx="4" class="card-bg" />
-    <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.6" />
-    <text x="10" y="16" class="hud-text module-num">MOD_02 // TENSORFLOW</text>
-    <text x="10" y="32" class="hud-text module-title">DEEP LEARNING</text>
-    <text x="10" y="44" class="hud-text module-status">> STATUS: COMPILING</text>
-    <!-- Progress bar -->
-    <rect x="10" y="50" width="180" height="6" class="bar-bg" rx="1" />
-    <rect x="10" y="50" height="6" class="bar-fill fill-dl" rx="1" />
-    <text x="200" y="56" class="hud-text blink" font-size="9">80%</text>
+  <!-- 2. DEEP LEARNING (Right-Top) -->
+  <g transform="translate(560, 40)">
+    <rect width="215" height="70" rx="4" class="card" />
+    <path d="M 215 12 L 215 0 L 203 0" fill="none" stroke="#00ff66" stroke-width="2" />
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // DL.NETWORKS.02</text>
+    <text x="10" y="32" class="hud-text skill-title">DEEP LEARNING</text>
+    <text x="10" y="46" class="hud-text skill-sub">> PyTorch // TensorFlow // Keras</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: AGENT_TRAINING ]</text>
+    <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
-  <!-- ================= CARD 3: WEB DEVELOPMENT (Col 3, Row 1) ================= -->
-  <g transform="translate(540, 50)">
-    <rect width="240" height="65" rx="4" class="card-bg" />
-    <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.6" />
-    <text x="10" y="16" class="hud-text module-num">MOD_03 // JS_HTML_CSS</text>
-    <text x="10" y="32" class="hud-text module-title">WEB DEVELOPMENT</text>
-    <text x="10" y="44" class="hud-text module-status">> STATUS: DEPLOYED</text>
-    <!-- Progress bar -->
-    <rect x="10" y="50" width="180" height="6" class="bar-bg" rx="1" />
-    <rect x="10" y="50" height="6" class="bar-fill fill-web" rx="1" />
-    <text x="200" y="56" class="hud-text blink" font-size="9">75%</text>
+  <!-- 3. COMPUTER VISION (Left-Bottom) -->
+  <g transform="translate(25, 170)">
+    <rect width="215" height="70" rx="4" class="card" />
+    <path d="M 0 58 L 0 70 L 12 70" fill="none" stroke="#00ff66" stroke-width="2" />
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // CV.VISION.03</text>
+    <text x="10" y="32" class="hud-text skill-title">COMPUTER VISION</text>
+    <text x="10" y="46" class="hud-text skill-sub">> YOLOv8 // OpenCV // Tracking</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: STREAMING_LIVE ]</text>
+    <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
-  <!-- ================= CARD 4: COMPUTER VISION (Col 1, Row 2) ================= -->
-  <g transform="translate(20, 130)">
-    <rect width="365" height="65" rx="4" class="card-bg" />
-    <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.6" />
-    <text x="10" y="16" class="hud-text module-num">MOD_04 // OPENCV_YOLO</text>
-    <text x="10" y="32" class="hud-text module-title">COMPUTER VISION (YOLOv8, TRAFFIC_DETECTOR)</text>
-    <text x="10" y="44" class="hud-text module-status">> ANALYZING VIDEO FEED... ACTIVE</text>
-    <!-- Progress bar -->
-    <rect x="10" y="50" width="300" height="6" class="bar-bg" rx="1" />
-    <rect x="10" y="50" height="6" class="bar-fill fill-cv" rx="1" />
-    <text x="320" y="56" class="hud-text blink" font-size="9">85%</text>
+  <!-- 4. DATA STRUCTURES & ALGORITHMS (Right-Bottom) -->
+  <g transform="translate(560, 170)">
+    <rect width="215" height="70" rx="4" class="card" />
+    <path d="M 215 58 L 215 70 L 203 70" fill="none" stroke="#00ff66" stroke-width="2" />
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // DSA.COMPUTE.04</text>
+    <text x="10" y="32" class="hud-text skill-title">DSA &amp; ALGORITHMS</text>
+    <text x="10" y="46" class="hud-text skill-sub">> Java // Problem Solving</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: COMPILER_READY ]</text>
+    <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
-  <!-- ================= CARD 5: DSA / JAVA (Col 2, Row 2) ================= -->
-  <g transform="translate(415, 130)">
-    <rect width="365" height="65" rx="4" class="card-bg" />
-    <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-opacity="0.6" />
-    <text x="10" y="16" class="hud-text module-num">MOD_05 // JAVA_DSA</text>
-    <text x="10" y="32" class="hud-text module-title">DATA STRUCTURES &amp; ALGORITHMS</text>
-    <text x="10" y="44" class="hud-text module-status">> STACK_OVERFLOW_SHIELD: LOADED</text>
-    <!-- Progress bar -->
-    <rect x="10" y="50" width="300" height="6" class="bar-bg" rx="1" />
-    <rect x="10" y="50" height="6" class="bar-fill fill-dsa" rx="1" />
-    <text x="320" y="56" class="hud-text blink" font-size="9">80%</text>
+  <!-- 5. WEB SYSTEMS (Center-Bottom) -->
+  <g transform="translate(292, 205)">
+    <rect width="215" height="65" rx="4" class="card" />
+    <path d="M 107 65 L 95 65" fill="none" stroke="#00ff66" stroke-width="2" />
+    <path d="M 108 65 L 120 65" fill="none" stroke="#00ff66" stroke-width="2" />
+    <text x="10" y="14" class="hud-text" font-size="8" fill-opacity="0.4">NODE // WEB.DEPLOYMENT.05</text>
+    <text x="10" y="28" class="hud-text skill-title">WEB SYSTEMS &amp; DEV</text>
+    <text x="10" y="42" class="hud-text skill-sub">> Javascript // HTML // CSS // API</text>
+    <text x="10" y="54" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: CLOUD_DEPLOYED ]</text>
+    <circle cx="200" cy="12" r="3" fill="#00ff66" />
   </g>
 </svg>
