@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header-hud.svg" width="100%" alt="OMNITRIX SYSTEM CORE" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=050806&height=150&section=header&text=OMNITRIX%20//%20COGNITIVE%20CORE&fontSize=30&fontColor=00ff66&animation=twinkle&desc=OMNITRIX%20OPERATOR%20//%20BEN%2010&descAlignY=65&descAlign=50&descSize=12" width="100%" alt="Omnitrix Core Banner" />
 </p>
 
 <p align="center">
@@ -35,40 +35,26 @@ train deep neural networks, and construct robust web systems.
 
 ### 🧬 DNA_CATALOG_SCHEMATIC // ACTIVE_TRANSFORMATIONS
 
-<p align="center">
-  <img src="assets/skills-hud.svg" width="100%" alt="Omnitrix DNA Schematic" />
-</p>
+| ALIEN PROFILE | SPECIES CLASS | COGNITIVE CAPABILITY | PRIMARY TECH CORE |
+| :--- | :--- | :--- | :--- |
+| 👽 **Diamondhead** | `PETROSAPIEN` | Crystallized ML Pipelines & Data Structures | Scikit-Learn, NumPy, Pandas |
+| 🔌 **Upgrade** | `MECHAMORPH` | Deep Neural Networks & Weight Calibration | PyTorch, TensorFlow, Keras |
+| 👁️ **Eye Guy** | `OPTIC_OID` | Real-Time Video Scans & Object Detection | YOLOv8, OpenCV, DeepSORT |
+| 🧠 **Grey Matter** | `GALVAN` | High-Complexity Algorithmic Computation | Java, Problem Solving |
+| 🦀 **Brainstorm** | `CEREBROCRUSTACEAN` | Dynamic Web API & Distributed Node Systems | JavaScript, HTML5, CSS3 |
 
-#### 👽 Diamondhead // Machine Learning Petrosapien
-> **SPECIFICATION:** High-density structured ML algorithms and crystallized data pipelines.
-> **TECH CORE:** Scikit-Learn | NumPy | Pandas | Feature Engineering
-
-#### 🔌 Upgrade // Deep Learning Galvanic Mechamorph
-> **SPECIFICATION:** Techno-organic neural architecture enhancement and deep learning systems optimization.
-> **TECH CORE:** PyTorch | TensorFlow | Keras | Neural Nets
-
-#### 👁️ Eye Guy // Computer Vision Opticoid
-> **SPECIFICATION:** Multi-sensory visual tracking, object detection pipelines, and high-frequency video scanners.
-> **TECH CORE:** YOLOv8 | OpenCV | DeepSORT | Image Processing
-
-#### 🧠 Grey Matter // Algorithms Galvan
-> **SPECIFICATION:** Core problem-solving, cognitive reasoning, and algorithmic complexity resolution.
-> **TECH CORE:** Java | Data Structures & Algorithms | Analytical Compute
-
-#### 🦀 Brainstorm // Web Systems Cerebrocrustacean
-> **SPECIFICATION:** High-voltage API connections, dynamic server nodes, and responsive web grids.
-> **TECH CORE:** JavaScript | HTML | CSS | REST APIs
+<br>
 
 <p align="center">
-  <img src="https://iconic-api.onrender.com/dark/python" width="48px" alt="Python" title="Python" />
-  <img src="https://iconic-api.onrender.com/dark/java" width="48px" alt="Java" title="Java" />
-  <img src="https://iconic-api.onrender.com/dark/tensorflow" width="48px" alt="TensorFlow" title="TensorFlow" />
-  <img src="https://iconic-api.onrender.com/dark/mysql" width="48px" alt="MySQL" title="MySQL" />
-  <img src="https://iconic-api.onrender.com/dark/git" width="48px" alt="Git" title="Git" />
-  <img src="https://iconic-api.onrender.com/dark/github" width="48px" alt="GitHub" title="GitHub" />
-  <img src="https://iconic-api.onrender.com/dark/js" width="48px" alt="JavaScript" title="JavaScript" />
-  <img src="https://iconic-api.onrender.com/dark/html" width="48px" alt="HTML" title="HTML" />
-  <img src="https://iconic-api.onrender.com/dark/css" width="48px" alt="CSS" title="CSS" />
+  <img src="https://img.shields.io/badge/Python-050806?style=for-the-badge&logo=python&logoColor=00ff66" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-050806?style=for-the-badge&logo=openjdk&logoColor=00ff66" alt="Java" />
+  <img src="https://img.shields.io/badge/TensorFlow-050806?style=for-the-badge&logo=tensorflow&logoColor=00ff66" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/MySQL-050806?style=for-the-badge&logo=mysql&logoColor=00ff66" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Git-050806?style=for-the-badge&logo=git&logoColor=00ff66" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-050806?style=for-the-badge&logo=github&logoColor=00ff66" alt="GitHub" />
+  <img src="https://img.shields.io/badge/JavaScript-050806?style=for-the-badge&logo=javascript&logoColor=00ff66" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-050806?style=for-the-badge&logo=html5&logoColor=00ff66" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-050806?style=for-the-badge&logo=css3&logoColor=00ff66" alt="CSS3" />
 </p>
 
 ---
@@ -93,34 +79,20 @@ train deep neural networks, and construct robust web systems.
 
 ### 📊 OMNITRIX_TELEMETRY // DIAGNOSTICS
 
-<p align="center">
-  <img src="assets/chart-hud.svg" width="100%" alt="DNA Diagnostics Radar" />
-</p>
-
-<p align="center">
-  <img src="assets/radar-hud.svg" width="100%" alt="Galactic Locator Scanner" />
-</p>
-
-<p align="center">
-  <img src="assets/hardware-hud.svg" width="100%" alt="Omnitrix Energy Map" />
-</p>
-
-<p align="center">
-  <img src="assets/activity-hud.svg" width="100%" alt="DNA Matrix Logs" />
-</p>
-
----
-
-### 📈 PERFORMANCE_MATRIX // DNA_LOGS
-
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=transparent&hide_border=true&title_color=00ff66&icon_color=00ff66&text_color=ffffff" width="95%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=transparent&hide_border=true&title_color=00ff66&icon_color=00ff66&text_color=ffffff" width="95%" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=transparent&hide_border=true&title_color=00ff66&text_color=ffffff" width="95%" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityavar808&theme=transparent&hide_border=true&fire=00ff66&ring=00ff66&currStreakLabel=00ff66&currStreakNum=ffffff&sideNums=ffffff&sideLabels=00ff66&dates=a0a0a0" width="95%" alt="Streak Stats" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <br>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=transparent&hide_border=true&title_color=00ff66&text_color=ffffff" width="95%" alt="Top Languages" />
       </td>
     </tr>
   </table>
