@@ -145,7 +145,7 @@
     <circle r="15" fill="#00ff66" class="core-glow" filter="url(#glow)" />
     <circle r="6" fill="#ffffff" />
     
-    <text x="0" y="55" class="hud-text core-lbl" text-anchor="middle" font-size="9">COGNITIVE_CORE</text>
+    <text x="0" y="55" class="hud-text core-lbl" text-anchor="middle" font-size="9">OMNITRIX_CORE</text>
   </g>
 
 
@@ -156,10 +156,10 @@
     <rect width="215" height="70" rx="4" class="card" />
     <path d="M 0 12 L 0 0 L 12 0" fill="none" stroke="#00ff66" stroke-width="2" />
     <!-- Telemetry elements inside card -->
-    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // ML.ENGINE.01</text>
-    <text x="10" y="32" class="hud-text skill-title">MACHINE LEARNING</text>
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">DNA // DIAMONDHEAD.01</text>
+    <text x="10" y="32" class="hud-text skill-title">DIAMONDHEAD // ML</text>
     <text x="10" y="46" class="hud-text skill-sub">> Scikit-Learn // Data Models</text>
-    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: FULLY_OPTIMIZED ]</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ SPECIES: PETROSAPIEN ]</text>
     <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
@@ -167,10 +167,10 @@
   <g transform="translate(560, 40)">
     <rect width="215" height="70" rx="4" class="card" />
     <path d="M 215 12 L 215 0 L 203 0" fill="none" stroke="#00ff66" stroke-width="2" />
-    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // DL.NETWORKS.02</text>
-    <text x="10" y="32" class="hud-text skill-title">DEEP LEARNING</text>
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">DNA // UPGRADE.02</text>
+    <text x="10" y="32" class="hud-text skill-title">UPGRADE // DL</text>
     <text x="10" y="46" class="hud-text skill-sub">> PyTorch // TensorFlow // Keras</text>
-    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: AGENT_TRAINING ]</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ SPECIES: MECHAMORPH ]</text>
     <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
@@ -178,10 +178,10 @@
   <g transform="translate(25, 170)">
     <rect width="215" height="70" rx="4" class="card" />
     <path d="M 0 58 L 0 70 L 12 70" fill="none" stroke="#00ff66" stroke-width="2" />
-    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // CV.VISION.03</text>
-    <text x="10" y="32" class="hud-text skill-title">COMPUTER VISION</text>
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">DNA // EYE_GUY.03</text>
+    <text x="10" y="32" class="hud-text skill-title">EYE GUY // CV</text>
     <text x="10" y="46" class="hud-text skill-sub">> YOLOv8 // OpenCV // Tracking</text>
-    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: STREAMING_LIVE ]</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ SPECIES: OPTIC_OID ]</text>
     <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
@@ -189,10 +189,10 @@
   <g transform="translate(560, 170)">
     <rect width="215" height="70" rx="4" class="card" />
     <path d="M 215 58 L 215 70 L 203 70" fill="none" stroke="#00ff66" stroke-width="2" />
-    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">NODE // DSA.COMPUTE.04</text>
-    <text x="10" y="32" class="hud-text skill-title">DSA &amp; ALGORITHMS</text>
+    <text x="10" y="16" class="hud-text" font-size="8" fill-opacity="0.4">DNA // GREY_MATTER.04</text>
+    <text x="10" y="32" class="hud-text skill-title">GREY MATTER // DSA</text>
     <text x="10" y="46" class="hud-text skill-sub">> Java // Problem Solving</text>
-    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: COMPILER_READY ]</text>
+    <text x="10" y="58" class="hud-text" font-size="9" fill="#ffffff">[ SPECIES: GALVAN ]</text>
     <circle cx="200" cy="15" r="3" fill="#00ff66" />
   </g>
 
@@ -201,10 +201,10 @@
     <rect width="215" height="65" rx="4" class="card" />
     <path d="M 107 65 L 95 65" fill="none" stroke="#00ff66" stroke-width="2" />
     <path d="M 108 65 L 120 65" fill="none" stroke="#00ff66" stroke-width="2" />
-    <text x="10" y="14" class="hud-text" font-size="8" fill-opacity="0.4">NODE // WEB.DEPLOYMENT.05</text>
-    <text x="10" y="28" class="hud-text skill-title">WEB SYSTEMS &amp; DEV</text>
+    <text x="10" y="14" class="hud-text" font-size="8" fill-opacity="0.4">DNA // BRAINSTORM.05</text>
+    <text x="10" y="28" class="hud-text skill-title">BRAINSTORM // WEB</text>
     <text x="10" y="42" class="hud-text skill-sub">> Javascript // HTML // CSS // API</text>
-    <text x="10" y="54" class="hud-text" font-size="9" fill="#ffffff">[ STATUS: CLOUD_DEPLOYED ]</text>
+    <text x="10" y="54" class="hud-text" font-size="9" fill="#ffffff">[ SPECIES: CEREBROCRUSTACEAN ]</text>
     <circle cx="200" cy="12" r="3" fill="#00ff66" />
   </g>
 </svg>

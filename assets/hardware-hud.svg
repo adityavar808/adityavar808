@@ -96,7 +96,7 @@
 
   <!-- ================= LEFT: EQUALIZER FREQUENCY MODULE ================= -->
   <g transform="translate(15, 0)">
-    <text x="10" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> NEURAL_SPECTRUM_SCANNER</text>
+    <text x="10" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> DNA_FREQUENCY_SPECTRUM</text>
     
     <!-- Audio Frequency Bars -->
     <rect x="10" y="90" class="eq-bar eq1" />
@@ -125,22 +125,22 @@
 
   <!-- ================= MIDDLE: CORE RESOURCE ALLOCATIONS ================= -->
   <g transform="translate(280, 0)">
-    <text x="0" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> HARDWARE_RESOURCE_MAP</text>
+    <text x="0" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> OMNITRIX_CORE_ENERGY_MAP</text>
 
     <!-- Core 01 -->
-    <text x="0" y="44" class="hud-text" font-size="10">CORE_01 [ML/DL]:</text>
+    <text x="0" y="44" class="hud-text" font-size="10">UPGD // DMND:</text>
     <rect x="110" y="34" width="100" height="12" class="panel-bg" rx="2" />
     <rect x="112" y="36" width="80" height="8" class="bar-green" rx="1" />
     <text x="218" y="44" class="hud-text" font-size="10">80%</text>
 
     <!-- Core 02 -->
-    <text x="0" y="66" class="hud-text" font-size="10">CORE_02 [CV]:</text>
+    <text x="0" y="66" class="hud-text" font-size="10">EYEG // XLR8:</text>
     <rect x="110" y="56" width="100" height="12" class="panel-bg" rx="2" />
     <rect x="112" y="58" width="92" height="8" class="bar-green" rx="1" />
     <text x="218" y="66" class="hud-text" font-size="10">92%</text>
 
     <!-- GPU Core VRAM -->
-    <text x="0" y="88" class="hud-text" font-size="10">VRAM ALLOC:</text>
+    <text x="0" y="88" class="hud-text" font-size="10">CHARGE ALLOC:</text>
     <rect x="110" y="78" width="100" height="12" class="panel-bg" rx="2" />
     <rect x="112" y="80" width="65" height="8" class="bar-green" rx="1" />
     <text x="218" y="88" class="hud-text" font-size="10">65%</text>
@@ -148,18 +148,18 @@
 
   <!-- ================= RIGHT: NETWORK BANDWIDTH SCAN ================= -->
   <g transform="translate(555, 0)">
-    <text x="0" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> NETWORK_BANDWIDTH_GRID</text>
+    <text x="0" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> GALACTIC_COMM_BANDWIDTH</text>
     
     <g transform="translate(0, 32)">
       <!-- Stats block -->
       <text x="0" y="12" class="hud-text" font-size="10" fill-opacity="0.6">GATEWAY:</text>
-      <text x="75" y="12" class="hud-text" font-size="10">SECURE_TUNNEL</text>
+      <text x="75" y="12" class="hud-text" font-size="10">PLUMBER_PORTAL</text>
       
       <text x="0" y="28" class="hud-text" font-size="10" fill-opacity="0.6">BANDWIDTH:</text>
-      <text x="75" y="28" class="hud-text" font-size="10">IN: 12.8MB/s</text>
+      <text x="75" y="28" class="hud-text" font-size="10">SYNC: 10.4GB/s</text>
 
-      <text x="0" y="44" class="hud-text" font-size="10" fill-opacity="0.6">TUNNEL PING:</text>
-      <text x="75" y="44" class="hud-text" font-size="10">8.4 ms</text>
+      <text x="0" y="44" class="hud-text" font-size="10" fill-opacity="0.6">PORTAL PING:</text>
+      <text x="75" y="44" class="hud-text" font-size="10">4.2 ms</text>
       
       <!-- Bouncing heartbeat pulse -->
       <circle cx="210" cy="24" r="5" fill="#00ff66" class="blink-fast" filter="url(#glow)" />

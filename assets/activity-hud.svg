@@ -71,7 +71,7 @@
   <path d="M 2 108 L 2 118 L 12 118" fill="none" stroke="#00ff66" stroke-width="2.5" />
   <path d="M 798 108 L 798 118 L 788 118" fill="none" stroke="#00ff66" stroke-width="2.5" />
 
-  <text x="25" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> MAINFRAME_NETWORK_TRAFFIC_MATRIX</text>
+  <text x="25" y="22" class="hud-text" font-size="9" fill-opacity="0.5">> OMNITRIX_DNA_MATRIX_LOGS</text>
 
   <!-- Dividers -->
   <line x1="260" y1="15" x2="260" y2="105" stroke="#00ff66" stroke-opacity="0.2" stroke-dasharray="3, 3" />

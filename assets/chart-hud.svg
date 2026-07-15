@@ -73,7 +73,7 @@
   <path d="M 2 245 L 2 258 L 15 258" fill="none" stroke="#00ff66" stroke-width="2.5" />
   <path d="M 798 245 L 798 258 L 785 258" fill="none" stroke="#00ff66" stroke-width="2.5" />
 
-  <text x="25" y="24" class="hud-text" font-size="10" fill-opacity="0.5">> VECTOR_RADAR_SKILL_ANALYSIS // PROPULSION</text>
+  <text x="25" y="24" class="hud-text" font-size="10" fill-opacity="0.5">> OMNITRIX_SPECIES_DIAGNOSTICS // CALIBRATION</text>
 
   <!-- Panel Dividers -->
   <line x1="220" y1="20" x2="220" y2="240" stroke="#00ff66" stroke-opacity="0.2" stroke-dasharray="4, 4" />
@@ -82,27 +82,27 @@
   <!-- ================= LEFT: NUMERIC PROCESS VALS ================= -->
   <g transform="translate(25, 45)">
     <rect width="170" height="175" fill="#000000" fill-opacity="0.4" stroke="#00ff66" stroke-opacity="0.15" rx="4" />
-    <text x="10" y="20" class="hud-text" font-size="10" fill-opacity="0.6">> COMPUTE STATS:</text>
+    <text x="10" y="20" class="hud-text" font-size="10" fill-opacity="0.6">> DNA DIAGNOSTICS:</text>
 
     <!-- Stat Items -->
     <g transform="translate(10, 45)">
-      <text x="0" y="0" class="hud-text" font-size="9" fill-opacity="0.5">ML DIAG:</text>
-      <text x="75" y="0" class="hud-text" font-size="9" fill="#ffffff">9.0 // OPTIMIZED</text>
+      <text x="0" y="0" class="hud-text" font-size="9" fill-opacity="0.5">DMND DIAG:</text>
+      <text x="75" y="0" class="hud-text" font-size="9" fill="#ffffff">9.0 // READY</text>
 
-      <text x="0" y="22" class="hud-text" font-size="9" fill-opacity="0.5">DL DIAG:</text>
-      <text x="75" y="22" class="hud-text" font-size="9" fill="#ffffff">8.0 // CALIBRATE</text>
+      <text x="0" y="22" class="hud-text" font-size="9" fill-opacity="0.5">UPGD DIAG:</text>
+      <text x="75" y="22" class="hud-text" font-size="9" fill="#ffffff">8.0 // READY</text>
 
-      <text x="0" y="44" class="hud-text" font-size="9" fill-opacity="0.5">CV DIAG:</text>
-      <text x="75" y="44" class="hud-text" font-size="9" fill="#00ff66">8.5 // STREAMING</text>
+      <text x="0" y="44" class="hud-text" font-size="9" fill-opacity="0.5">EYEG DIAG:</text>
+      <text x="75" y="44" class="hud-text" font-size="9" fill="#00ff66">8.5 // ACTIVE</text>
 
-      <text x="0" y="66" class="hud-text" font-size="9" fill-opacity="0.5">DSA DIAG:</text>
-      <text x="75" y="66" class="hud-text" font-size="9" fill="#ffffff">8.0 // STABLE</text>
+      <text x="0" y="66" class="hud-text" font-size="9" fill-opacity="0.5">GMTR DIAG:</text>
+      <text x="75" y="66" class="hud-text" font-size="9" fill="#ffffff">8.0 // READY</text>
 
-      <text x="0" y="88" class="hud-text" font-size="9" fill-opacity="0.5">WEB DIAG:</text>
-      <text x="75" y="88" class="hud-text" font-size="9" fill="#ffffff">7.5 // HOSTED</text>
+      <text x="0" y="88" class="hud-text" font-size="9" fill-opacity="0.5">BRNS DIAG:</text>
+      <text x="75" y="88" class="hud-text" font-size="9" fill="#ffffff">7.5 // READY</text>
       
       <path d="M 0 102 L 150 102" stroke="#00ff66" stroke-opacity="0.15" />
-      <text x="0" y="115" class="hud-text" font-size="8" fill-opacity="0.5">SYS_LOCK: SECURE</text>
+      <text x="0" y="115" class="hud-text" font-size="8" fill-opacity="0.5">OMNI_LOCK: SECURE</text>
     </g>
   </g>
 
@@ -146,11 +146,11 @@
     <circle cx="335.3" cy="109" r="3.5" class="marker-dot" />
 
     <!-- Labels for the axes -->
-    <text x="400" y="42" class="hud-text" font-size="9" text-anchor="middle" fill="#ffffff" filter="url(#glow)">ML</text>
-    <text x="492" y="103" class="hud-text" font-size="9" text-anchor="start" fill="#ffffff">DL</text>
-    <text x="458" y="210" class="hud-text" font-size="9" text-anchor="middle" fill="#ffffff">DSA</text>
-    <text x="342" y="210" class="hud-text" font-size="9" text-anchor="middle" fill="#ffffff">WEB</text>
-    <text x="308" y="103" class="hud-text" font-size="9" text-anchor="end" fill="#ffffff">CV</text>
+    <text x="400" y="42" class="hud-text" font-size="9" text-anchor="middle" fill="#ffffff" filter="url(#glow)">DMND</text>
+    <text x="492" y="103" class="hud-text" font-size="9" text-anchor="start" fill="#ffffff">UPGD</text>
+    <text x="458" y="210" class="hud-text" font-size="9" text-anchor="middle" fill="#ffffff">GMTR</text>
+    <text x="342" y="210" class="hud-text" font-size="9" text-anchor="middle" fill="#ffffff">BRNS</text>
+    <text x="308" y="103" class="hud-text" font-size="9" text-anchor="end" fill="#ffffff">EYEG</text>
   </g>
 
   <!-- ================= RIGHT: TELEMETRY & BEACON ================= -->
@@ -160,19 +160,19 @@
     <!-- Sector diagnostics -->
     <g transform="translate(15, 20)">
       <text x="0" y="10" class="hud-text" font-size="9" fill-opacity="0.5">SECTOR:</text>
-      <text x="0" y="24" class="hud-text" font-size="10">GRID_RADAR_05</text>
+      <text x="0" y="24" class="hud-text" font-size="10">OMNITRIX_05</text>
       
-      <text x="0" y="48" class="hud-text" font-size="9" fill-opacity="0.5">COMPUTE NODE:</text>
-      <text x="0" y="62" class="hud-text" font-size="10">TENSOR_CORE_LOCK</text>
+      <text x="0" y="48" class="hud-text" font-size="9" fill-opacity="0.5">SYSTEM NODE:</text>
+      <text x="0" y="62" class="hud-text" font-size="10">AZMUTH_LOCK</text>
       
       <!-- Bouncing graphic representing data integrity -->
-      <text x="0" y="88" class="hud-text" font-size="9" fill-opacity="0.5">VECTOR SWEEP:</text>
+      <text x="0" y="88" class="hud-text" font-size="9" fill-opacity="0.5">DNA MATRIX:</text>
       <text x="0" y="102" class="hud-text" font-size="10" fill="#00ff66">STABLE [OK]</text>
       
       <circle cx="120" cy="130" r="14" fill="none" stroke="#00ff66" stroke-width="1.2" stroke-opacity="0.3" />
       <circle cx="120" cy="130" r="8" fill="none" stroke="#00ff66" stroke-width="1" stroke-dasharray="3, 3" class="spin-cw" style="transform-origin: 120px 130px;" />
       <circle cx="120" cy="130" r="3.5" fill="#00ff66" class="pulse-glow" filter="url(#glow)" />
-      <text x="0" y="134" class="hud-text" font-size="9" fill-opacity="0.4">NODE_STATUS</text>
+      <text x="0" y="134" class="hud-text" font-size="9" fill-opacity="0.4">OMNI_STATUS</text>
     </g>
   </g>
 </svg>

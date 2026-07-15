@@ -1,40 +1,63 @@
 <p align="center">
-  <img src="assets/header-hud.svg" width="100%" alt="Aditya Varshney Core HUD" />
+  <img src="assets/header-hud.svg" width="100%" alt="OMNITRIX SYSTEM CORE" />
 </p>
 
 <p align="center">
   <a href="mailto:adityavarshney808@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-adityavarshney808%40gmail.com-00ff66?style=flat-square&logo=gmail&logoColor=050806&labelColor=050806" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Plumber_Comm-Gmail-00ff66?style=flat-square&logo=gmail&logoColor=050806&labelColor=050806" alt="Gmail" />
   </a>
   <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-adityaavarshney-00ff66?style=flat-square&logo=linkedin&logoColor=050806&labelColor=050806" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/Secure_Link-LinkedIn-00ff66?style=flat-square&logo=linkedin&logoColor=050806&labelColor=050806" alt="LinkedIn" />
   </a>
   <a href="https://portfolioaditya-gamma.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-aditya--dev-00ff66?style=flat-square&logo=vercel&logoColor=050806&labelColor=050806" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Operator_Base-Portfolio-00ff66?style=flat-square&logo=vercel&logoColor=050806&labelColor=050806" alt="Portfolio" />
   </a>
 </p>
 
 ---
 
-### ⚡ SYSTEM_OVERVIEW // WHOAMI
+### ⚡ OMNITRIX_INITIALIZATION // OPERATOR_LOG
 
 ```bash
-$ cat operator_bio.log
+$ systemctl start omnitrix-core.service
 
-[STATUS: ONLINE]
-Hello! I am Aditya Varshney, an AI/ML developer focused on building intelligent 
-computer vision pipelines and deep learning systems. I build real-time visual 
-analysis applications, train deep neural network models, and construct robust 
-web integrations.
+[INIT] Omnitrix Core Systems: ONLINE
+[INIT] Operator Sync: Aditya Varshney (Galactic ID: BEN-10-808)
+[INIT] Location Lock: 28.6139° N, 77.2090° E (New Delhi, Sector-4)
+[INIT] DNA Catalog Status: 10/10 active species loaded.
+
+Hello! I am Aditya Varshney, an AI/ML developer focused on building computer vision 
+pipelines and deep learning models. I build real-time visual analysis applications, 
+train deep neural networks, and construct robust web systems.
 ```
 
 ---
 
-### 🛠️ NEURAL_FLOW // COGNITIVE_SCHEMATIC
+### 🧬 DNA_CATALOG_SCHEMATIC // ACTIVE_TRANSFORMATIONS
 
 <p align="center">
-  <img src="assets/skills-hud.svg" width="100%" alt="Skills Cognitive Schematic" />
+  <img src="assets/skills-hud.svg" width="100%" alt="Omnitrix DNA Schematic" />
 </p>
+
+#### 👽 Diamondhead // Machine Learning Petrosapien
+> **SPECIFICATION:** High-density structured ML algorithms and crystallized data pipelines.
+> **TECH CORE:** Scikit-Learn | NumPy | Pandas | Feature Engineering
+
+#### 🔌 Upgrade // Deep Learning Galvanic Mechamorph
+> **SPECIFICATION:** Techno-organic neural architecture enhancement and deep learning systems optimization.
+> **TECH CORE:** PyTorch | TensorFlow | Keras | Neural Nets
+
+#### 👁️ Eye Guy // Computer Vision Opticoid
+> **SPECIFICATION:** Multi-sensory visual tracking, object detection pipelines, and high-frequency video scanners.
+> **TECH CORE:** YOLOv8 | OpenCV | DeepSORT | Image Processing
+
+#### 🧠 Grey Matter // Algorithms Galvan
+> **SPECIFICATION:** Core problem-solving, cognitive reasoning, and algorithmic complexity resolution.
+> **TECH CORE:** Java | Data Structures & Algorithms | Analytical Compute
+
+#### 🦀 Brainstorm // Web Systems Cerebrocrustacean
+> **SPECIFICATION:** High-voltage API connections, dynamic server nodes, and responsive web grids.
+> **TECH CORE:** JavaScript | HTML | CSS | REST APIs
 
 <p align="center">
   <img src="https://iconic-api.onrender.com/dark/python" width="48px" alt="Python" title="Python" />
@@ -50,54 +73,54 @@ web integrations.
 
 ---
 
-### 📁 ACTIVE_REPOSITORIES // MISSION_LOGS
+### 📂 PLUMBER_MISSIONS // OPERATIONS_LOG
 
 ```yaml
-- Project: Traffic Violation Detection Pipeline
-  Objective: Real-time traffic surveillance system built to track vehicle speed, helmet compliance, and lane infractions.
-  Architecture: Custom computer vision models & tracking pipelines.
+- Mission: Traffic Violation Detection Pipeline
+  Objective: Real-time traffic surveillance tracking speed, helmet compliance, and lane infractions using custom computer vision models.
+  Alien_Deployment: [Eye Guy, Upgrade]
   Core_Stack: [YOLOv8, PyTorch, DeepSORT, OpenCV, Python]
   Status: ACTIVE
 
-- Project: Streaming Video Vector Scanner
-  Objective: Low-latency live object tracking framework that scans frames and triggers security event requests based on crossing lines or boundary conditions.
-  Architecture: Real-time event boundary trigger system.
+- Mission: Streaming Video Vector Scanner
+  Objective: Low-latency live object tracking framework scanning frames to trigger security notifications based on boundary line violations.
+  Alien_Deployment: [XLR8, Brainstorm]
   Core_Stack: [OpenCV, TensorFlow Lite, FastAPI, Python]
   Status: STABLE
 ```
 
 ---
 
-### 📊 TELEMETRY_MATRIX // DIAGNOSTICS
+### 📊 OMNITRIX_TELEMETRY // DIAGNOSTICS
 
 <p align="center">
-  <img src="assets/chart-hud.svg" width="100%" alt="Vector Radar Skill Analysis" />
+  <img src="assets/chart-hud.svg" width="100%" alt="DNA Diagnostics Radar" />
 </p>
 
 <p align="center">
-  <img src="assets/radar-hud.svg" width="100%" alt="Satellite Orbital Scanner" />
+  <img src="assets/radar-hud.svg" width="100%" alt="Galactic Locator Scanner" />
 </p>
 
 <p align="center">
-  <img src="assets/hardware-hud.svg" width="100%" alt="Neural Spectrum Scanner" />
+  <img src="assets/hardware-hud.svg" width="100%" alt="Omnitrix Energy Map" />
 </p>
 
 <p align="center">
-  <img src="assets/activity-hud.svg" width="100%" alt="Mainframe Network Traffic Matrix" />
+  <img src="assets/activity-hud.svg" width="100%" alt="DNA Matrix Logs" />
 </p>
 
 ---
 
-### 📈 DATA_MATRIX // PERFORMANCE_LOGS
+### 📈 PERFORMANCE_MATRIX // DNA_LOGS
 
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=transparent&hide_border=true&title_color=00ff66&icon_color=00ff66&text_color=ffffff&text_bold=true" width="95%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=transparent&hide_border=true&title_color=00ff66&icon_color=00ff66&text_color=ffffff" width="95%" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=transparent&hide_border=true&title_color=00ff66&text_color=ffffff&text_bold=true" width="95%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=transparent&hide_border=true&title_color=00ff66&text_color=ffffff" width="95%" />
       </td>
     </tr>
   </table>

@@ -71,7 +71,7 @@
   <path d="M 2 185 L 2 198 L 15 198" fill="none" stroke="#00ff66" stroke-width="2.5" />
   <path d="M 798 185 L 798 198 L 785 198" fill="none" stroke="#00ff66" stroke-width="2.5" />
 
-  <text x="25" y="24" class="hud-text" font-size="10" fill-opacity="0.5">> SATELLITE_ORBITAL_SCANNER // LOCK_ON</text>
+  <text x="25" y="24" class="hud-text" font-size="10" fill-opacity="0.5">> OMNITRIX_GALACTIC_LOCATOR // LOCK_ON</text>
 
   <!-- Panel Dividers -->
   <line x1="240" y1="20" x2="240" y2="180" stroke="#00ff66" stroke-opacity="0.2" stroke-dasharray="4, 4" />
@@ -105,7 +105,7 @@
       <path d="M 9 -4 L 9 -9 L 4 -9" fill="none" stroke="#00ff66" stroke-width="1" />
       <path d="M -9 4 L -9 9 L -4 9" fill="none" stroke="#00ff66" stroke-width="1" />
       <path d="M 9 4 L 9 9 L 4 9" fill="none" stroke="#00ff66" stroke-width="1" />
-      <text x="12" y="3" class="hud-text" font-size="8" fill="#ffffff" filter="url(#glow)">TARGET_ACQUIRED</text>
+      <text x="12" y="3" class="hud-text" font-size="8" fill="#ffffff" filter="url(#glow)">DNA_LOCK_ACQUIRED</text>
     </g>
   </g>
 
@@ -114,8 +114,8 @@
     <rect width="280" height="130" class="panel-box" rx="4" />
     
     <g transform="translate(15, 20)">
-      <text x="0" y="10" class="hud-text" font-size="10" fill-opacity="0.5">TARGET IDENT:</text>
-      <text x="110" y="10" class="hud-text" font-size="10" fill="#ffffff">ADITYA_VAR808 // OPERATOR</text>
+      <text x="0" y="10" class="hud-text" font-size="10" fill-opacity="0.5">OPERATOR IDENT:</text>
+      <text x="110" y="10" class="hud-text" font-size="10" fill="#ffffff">ADITYA_VAR808 // BEN_10</text>
 
       <text x="0" y="28" class="hud-text" font-size="10" fill-opacity="0.5">LAT/LONG GRID:</text>
       <text x="110" y="28" class="hud-text" font-size="10" fill="#ffffff">28.6139 N / 77.2090 E</text>
@@ -123,14 +123,14 @@
       <text x="0" y="46" class="hud-text" font-size="10" fill-opacity="0.5">LOCATION REF:</text>
       <text x="110" y="46" class="hud-text" font-size="10" fill="#00ff66">NEW DELHI, INDIA</text>
 
-      <text x="0" y="64" class="hud-text" font-size="10" fill-opacity="0.5">VECTOR STATUS:</text>
-      <text x="110" y="64" class="hud-text" font-size="10" fill="#ffffff">ORBITAL_LOCK [100% STABLE]</text>
+      <text x="0" y="64" class="hud-text" font-size="10" fill-opacity="0.5">OMNI STATUS:</text>
+      <text x="110" y="64" class="hud-text" font-size="10" fill="#ffffff">OMNITRIX_LOCK [DNA_STABLE]</text>
 
-      <text x="0" y="82" class="hud-text" font-size="10" fill-opacity="0.5">RECEIVER FREQ:</text>
-      <text x="110" y="82" class="hud-text" font-size="10" fill="#00ff66">S-BAND // 2.45 GHz</text>
+      <text x="0" y="82" class="hud-text" font-size="10" fill-opacity="0.5">DNA FREQUENCY:</text>
+      <text x="110" y="82" class="hud-text" font-size="10" fill="#00ff66">OMNI_BAND // 10.0 MHz</text>
 
       <text x="0" y="100" class="hud-text" font-size="10" fill-opacity="0.5">SIGNAL QUALITY:</text>
-      <text x="110" y="100" class="hud-text" font-size="10" fill="#ffffff">99.87% [SIG_GAIN_EXCELLENT]</text>
+      <text x="110" y="100" class="hud-text" font-size="10" fill="#ffffff">99.9% [OMNI_LINK_CONNECTED]</text>
     </g>
   </g>
 
@@ -151,14 +151,14 @@
     <g class="orbit-slow">
       <circle cx="680" cy="50" r="4.5" fill="#00ff66" filter="url(#glow)" />
       <path d="M 680 50 L 690 40 L 705 40" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.6" />
-      <text x="708" y="43" class="hud-text" font-size="7">SAT_01</text>
+      <text x="708" y="43" class="hud-text" font-size="7">PLUMBER_01</text>
     </g>
 
     <!-- Satellite 2 (Outer orbit fast counter) -->
     <g class="orbit-fast">
       <circle cx="680" cy="170" r="3.5" fill="#ffffff" />
       <path d="M 680 170 L 670 180 L 650 180" fill="none" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.6" />
-      <text x="622" y="183" class="hud-text" font-size="7">SAT_02</text>
+      <text x="622" y="183" class="hud-text" font-size="7">PLUMBER_02</text>
     </g>
   </g>
 </svg>

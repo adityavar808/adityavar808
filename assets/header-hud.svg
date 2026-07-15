@@ -192,11 +192,11 @@
   <!-- ================= CENTER PANEL: CORE OVERVIEW IDENTITY ================= -->
   <g transform="translate(200, 0)">
     <!-- Main header block -->
-    <text x="0" y="55" class="hud-text hud-title">ADITYA.VARSHNEY // CORE</text>
+    <text x="0" y="55" class="hud-text hud-title">ADITYA // OMNITRIX_CORE</text>
     
     <!-- Glowing green beacon and status subtitle -->
     <circle cx="5" cy="80" r="3.5" fill="#00ff66" class="blink-fast" filter="url(#glow)" />
-    <text x="18" y="84" class="hud-text hud-subtitle">SYSTEM STATUS: ACTIVE [SYS_OK]</text>
+    <text x="18" y="84" class="hud-text hud-subtitle">OMNITRIX STATUS: ACTIVE [DNA_SYNCED]</text>
 
     <!-- Dynamic Identity Spec Board -->
     <g transform="translate(0, 115)">
@@ -209,23 +209,23 @@
         <text x="110" y="0" class="hud-text hud-val">ADITYA VARSHNEY</text>
         
         <text x="0" y="20" class="hud-text hud-lbl">NEURAL CLASS:</text>
-        <text x="110" y="20" class="hud-text hud-val">AI/ML ENGINEER // V4.0</text>
+        <text x="110" y="20" class="hud-text hud-val">OMNITRIX OPERATOR // V10.0</text>
 
-        <text x="0" y="40" class="hud-text hud-lbl">IP NODE:</text>
-        <text x="110" y="40" class="hud-text hud-val">127.0.0.1 // LOCALHOST</text>
+        <text x="0" y="40" class="hud-text hud-lbl">DNA LINK:</text>
+        <text x="110" y="40" class="hud-text hud-val">COGNITIVE_LINK // SECURE</text>
 
-        <text x="0" y="60" class="hud-text hud-lbl">BRIDGE LINK:</text>
+        <text x="0" y="60" class="hud-text hud-lbl">PLUMBER NET:</text>
         <text x="110" y="60" class="hud-text hud-val">PORTFOLIO.net [ONLINE]</text>
 
-        <text x="0" y="80" class="hud-text hud-lbl">GEOMETRIC LOC:</text>
+        <text x="0" y="80" class="hud-text hud-lbl">GALACTIC COORD:</text>
         <text x="110" y="80" class="hud-text hud-val">28.6139° N, 77.2090° E</text>
 
         <!-- Cryptographic key rotators -->
-        <text x="0" y="105" class="hud-text hud-lbl">SECURE_KEY:</text>
+        <text x="0" y="105" class="hud-text hud-lbl">DNA_SIGNATURE:</text>
         <text x="110" y="105" class="hud-text hud-val" font-size="10" fill="#00ff66" stroke="#00ff66" stroke-width="0.3" fill-opacity="0.6">0x8F59C7D3E2A10B4F</text>
         
-        <text x="0" y="120" class="hud-text hud-lbl">UPTIME SCAN:</text>
-        <text x="110" y="120" class="hud-text hud-val">99.9874% COMPLETED</text>
+        <text x="0" y="120" class="hud-text hud-lbl">CHARGE LEVEL:</text>
+        <text x="110" y="120" class="hud-text hud-val">100% FULLY_CHARGED</text>
       </g>
     </g>
   </g>
@@ -233,7 +233,7 @@
   <!-- ================= RIGHT PANEL: DIAGNOSTICS FEED & ECG ================= -->
   <!-- Top Right Panel: Oscilloscope ECG -->
   <g transform="translate(550, 25)">
-    <text x="0" y="10" class="hud-text" font-size="11" fill-opacity="0.6">> OSCILLOSCOPE FEED:</text>
+    <text x="0" y="10" class="hud-text" font-size="11" fill-opacity="0.6">> COGNITIVE HEARTBEAT:</text>
     
     <g transform="translate(0, 20)">
       <!-- Oscilloscope Box Grid -->
@@ -260,7 +260,7 @@
 
   <!-- Bottom Right Panel: Live Logs -->
   <g transform="translate(550, 145)">
-    <text x="0" y="10" class="hud-text" font-size="11" fill-opacity="0.6">> TELEMETRY LOGSTREAM:</text>
+    <text x="0" y="10" class="hud-text" font-size="11" fill-opacity="0.6">> OMNITRIX LOGSTREAM:</text>
     
     <g transform="translate(0, 20)">
       <rect width="230" height="100" fill="#000000" fill-opacity="0.4" stroke="#00ff66" stroke-opacity="0.15" rx="4" />
@@ -272,17 +272,17 @@
       
       <g clip-path="url(#log-clip-v2)">
         <g class="scrolling-logs">
-          <text x="8" y="20" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> SYS.BOOT: INITIALIZING SYSTEMS</text>
-          <text x="8" y="38" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> CONNECTED: GITHUB.COM/ADITYAVAR808</text>
-          <text x="8" y="56" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> DETECTOR: TRAFFIC_FLOW_V8 ACTIVATED</text>
-          <text x="8" y="74" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> NEURAL: PREDICTIVE MATRIX OPTIMIZED</text>
-          <text x="8" y="92" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> BUFFER: DATA PACKETS STABLE [0x00]</text>
-          <text x="8" y="110" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> DEPLOYMENT: VERCEL BRIDGE CONNECTED</text>
-          <text x="8" y="128" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> COMPILE: JAVA_DSA EXECUTION READY</text>
+          <text x="8" y="20" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> OMNI.BOOT: SCANNING DNA CATALOG</text>
+          <text x="8" y="38" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> DNA_SYNCED: GITHUB/ADITYAVAR808</text>
+          <text x="8" y="56" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> ACTIVE_MODEL: XLR8_VISION_PIPELINE</text>
+          <text x="8" y="74" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> COGNITIVE: AZMUTH_LOGIC_OPTIMIZED</text>
+          <text x="8" y="92" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> DNA_STREAM: 10_ACTIVE_SPECIES_OK</text>
+          <text x="8" y="110" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> PLUMBER_NET: NODE_CONNECTED</text>
+          <text x="8" y="128" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> CODE: GREY_MATTER_DSA_STABLE</text>
           
           <!-- Duplicates for loop -->
-          <text x="8" y="146" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> SYS.BOOT: INITIALIZING SYSTEMS</text>
-          <text x="8" y="164" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> CONNECTED: GITHUB.COM/ADITYAVAR808</text>
+          <text x="8" y="146" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> OMNI.BOOT: SCANNING DNA CATALOG</text>
+          <text x="8" y="164" class="hud-text" font-size="9" fill="#00ff66" fill-opacity="0.9">> DNA_SYNCED: GITHUB/ADITYAVAR808</text>
         </g>
       </g>
     </g>
