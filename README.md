@@ -114,17 +114,12 @@
 
 <h2>📊 GitHub Telemetry & Performance Dashboard</h2>
 
-<div align="center">
-  <h3>🏆 GitHub Trophies</h3>
-  <img src="https://github-profile-trophy.vercel.app/?username=adityavar808&theme=darkhub&no-frame=true&no-background=true&margin-w=4&column=6" width="100%" alt="GitHub Trophies" />
-</div>
-
 <br>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&title_color=06b6d4&icon_color=0070f3&text_color=8b949e&bg_color=0d1117&hide_border=true&include_all_commits=true" width="98%" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=adityavar808&show_icons=true&theme=tokyonight&title_color=06b6d4&icon_color=0070f3&text_color=8b949e&bg_color=0d1117&hide_border=true" width="98%" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityavar808&theme=tokyonight&background=0d1117&fire=06b6d4&ring=7928ca&currStreakLabel=06b6d4&currStreakNum=ffffff&sideNums=ffffff&sideLabels=0070f3&dates=8b949e&hide_border=true" width="98%" alt="Streak Stats" />
@@ -133,7 +128,7 @@
   <tr>
     <td width="50%" align="center">
       <br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=tokyonight&title_color=06b6d4&icon_color=0070f3&text_color=8b949e&bg_color=0d1117&hide_border=true" width="98%" alt="Top Languages" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adityavar808&layout=compact&theme=tokyonight&title_color=06b6d4&icon_color=0070f3&text_color=8b949e&bg_color=0d1117&hide_border=true" width="98%" alt="Top Languages" />
     </td>
     <td width="50%" align="center">
       <br>
