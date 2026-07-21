@@ -54,10 +54,10 @@
         <li>💬 <b>Ask Me About:</b> PyTorch, OpenCV, YOLOv8, FastAPI, WebRTC, CUDA & AI deployments.</li>
       </ul>
     </td>
-    <td width="45%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px;">
+    <td width="45%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 18px;">
       <h3 style="color: #7928ca; margin-top: 0;">💻 Terminal Telemetry</h3>
       <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=06B6D4&background=0D1117&vCenter=true&multiline=true&width=360&height=170&lines=const+engineer+%3D+%7B%0A++name%3A+%22Aditya+Varshney%22%2C%0A++role%3A+%22AI%2FML+Engineer%22%2C%0A++stack%3A+%5B%22PyTorch%22%2C+%22OpenCV%22%5D%2C%0A++status%3A+%22Building+the+future...%22%0A%7D%3B" width="100%" alt="Developer Terminal SVG" />
+        <img src="./terminal.svg" width="100%" alt="Developer Terminal Telemetry SVG" />
       </p>
     </td>
   </tr>
