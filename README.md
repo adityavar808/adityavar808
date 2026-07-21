@@ -5,7 +5,7 @@
 <!-- ========================================== -->
 
 <div align="center">
-  <img src="./github-header-banner.png" width="100%" alt="Aditya Varshney Header Banner" />
+  <img src="https://raw.githubusercontent.com/adityavar808/adityavar808/main/github-header-banner.png" width="100%" alt="Aditya Varshney Header Banner" />
 </div>
 
 <br>
@@ -57,7 +57,7 @@
     <td width="45%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 18px;">
       <h3 style="color: #7928ca; margin-top: 0;">💻 Terminal Telemetry</h3>
       <p align="center">
-        <img src="./terminal.svg" width="100%" alt="Developer Terminal Telemetry SVG" />
+        <img src="https://raw.githubusercontent.com/adityavar808/adityavar808/main/terminal.svg" width="100%" alt="Developer Terminal Telemetry SVG" />
       </p>
     </td>
   </tr>
