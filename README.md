@@ -1,15 +1,9 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=0d1117&customColorEnd=0070f3&height=220&section=header&text=Aditya%20Varshney&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=AI%2FML%20Engineer%20%7C%20Deep%20Learning%20%26%20Computer%20Vision%20Developer&descAlignY=68&descSize=15" width="100%" alt="Linear Vercel Header" />
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=3000&pause=1000&color=0070F3&center=true&vCenter=true&width=750&lines=👋+Aditya+Varshney;AI/ML+Engineer+%26+Systems+Developer;Computer+Vision+%26+Deep+Learning" alt="Aditya Varshney Header" />
+</h1>
 
 <p align="center">
-  <img src="https://github.com/adityavar808.png" width="120" style="border-radius: 50%; border: 2px solid #0070f3;" alt="Aditya Varshney Avatar" />
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=1000&color=0070F3&center=true&vCenter=true&width=600&lines=Building+Low-Latency+Vision+Systems;Architecting+Intelligent+AI+Pipelines;Designing+Autonomous+Deep+Learning+Models" alt="Typing SVG" />
-  </a>
+  <b>AI/ML Engineer</b> • Real-Time Computer Vision • Low-Latency Deep Learning Systems
 </p>
 
 <p align="center">
