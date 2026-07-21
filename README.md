@@ -1,22 +1,24 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=3000&pause=1000&color=0070F3&center=true&vCenter=true&width=750&lines=👋+Aditya+Varshney;AI/ML+Engineer+%26+Systems+Developer;Computer+Vision+%26+Deep+Learning" alt="Aditya Varshney Header" />
-</h1>
+<div align="center">
 
-<p align="center">
-  <b>AI/ML Engineer</b> • Real-Time Computer Vision • Low-Latency Deep Learning Systems
-</p>
+  # 👋 Aditya Varshney
 
-<p align="center">
-  <a href="https://adityavarshney.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-adityavarshney.netlify.app-0070f3?style=for-the-badge&logo=vercel&logoColor=ffffff&labelColor=0d1117" alt="Website" />
-  </a>
-  <a href="mailto:adityavarshney808@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Aditya%20Varshney-7928ca?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0d1117" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-adityaavarshney-0070f3?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0d1117" alt="LinkedIn" />
-  </a>
-</p>
+  <p align="center">
+    <b>AI/ML Engineer</b> &nbsp;|&nbsp; <b>Computer Vision Specialist</b> &nbsp;|&nbsp; <b>Deep Learning Developer</b>
+  </p>
+
+  <p align="center">
+    <a href="https://adityavarshney.netlify.app" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-adityavarshney.netlify.app-0070f3?style=for-the-badge&logo=netlify&logoColor=ffffff&labelColor=0d1117" alt="Website" />
+    </a>
+    <a href="mailto:adityavarshney808@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Aditya%20Varshney-7928ca?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0d1117" alt="Email" />
+    </a>
+    <a href="https://linkedin.com/in/adityaavarshney" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-adityaavarshney-0070f3?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0d1117" alt="LinkedIn" />
+    </a>
+  </p>
+
+</div>
 
 <br>
 
