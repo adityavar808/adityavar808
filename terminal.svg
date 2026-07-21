@@ -58,43 +58,43 @@
   <circle cx="54" cy="16" r="5.5" fill="#27C93F" />
 
   <!-- Window Header Title -->
-  <text x="220" y="20" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle" font-weight="500">aditya@ai-cluster: ~/model (zsh)</text>
+  <text x="220" y="20" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle" font-weight="500">aditya@portfolio: ~/about (python3)</text>
 
   <!-- Code Body -->
   <g class="code-text" transform="translate(18, 55)">
     <!-- Line 1: Comment -->
     <text y="0" class="line-1">
-      <tspan class="comment"># Autonomous AI Agent Pipeline</tspan>
+      <tspan class="comment"># Developer Bio &amp; Engineering Profile</tspan>
     </text>
 
-    <!-- Line 2: Imports -->
+    <!-- Line 2: Name & Role -->
     <text y="22" class="line-2">
-      <tspan class="keyword">import</tspan> <tspan class="plain">torch, cv2, fastapi, yolo</tspan>
+      <tspan class="plain">name = </tspan><tspan class="string">"Aditya Varshney"</tspan>
     </text>
 
-    <!-- Line 3: Class Def -->
+    <!-- Line 3: Role -->
     <text y="44" class="line-3">
-      <tspan class="keyword">class</tspan> <tspan class="class-name">AIVisionEngine</tspan><tspan class="plain">:</tspan>
+      <tspan class="plain">role = </tspan><tspan class="string">"AI / ML Engineer"</tspan>
     </text>
 
-    <!-- Line 4: Init -->
+    <!-- Line 4: Core Mission -->
     <text y="66" class="line-4">
-      <tspan class="plain">  </tspan><tspan class="keyword">def</tspan> <tspan class="class-name">__init__</tspan><tspan class="plain">(self):</tspan>
+      <tspan class="plain">focus = </tspan><tspan class="string">"Computer Vision &amp; LLM Agents"</tspan>
     </text>
 
-    <!-- Line 5: Config -->
+    <!-- Line 5: Tech Stack -->
     <text y="88" class="line-5">
-      <tspan class="plain">    self.model = </tspan><tspan class="string">"YOLOv8 + CUDA"</tspan>
+      <tspan class="plain">stack = [</tspan><tspan class="string">"PyTorch"</tspan><tspan class="plain">, </tspan><tspan class="string">"OpenCV"</tspan><tspan class="plain">, </tspan><tspan class="string">"CUDA"</tspan><tspan class="plain">]</tspan>
     </text>
 
-    <!-- Line 6: Latency -->
+    <!-- Line 6: Location -->
     <text y="110" class="line-6">
-      <tspan class="plain">    self.latency = </tspan><tspan class="number">"0.8ms"</tspan>
+      <tspan class="plain">status = </tspan><tspan class="string">"🚀 Building High-Impact AI"</tspan>
     </text>
 
     <!-- Line 7: Execute & Cursor -->
     <text y="132" class="line-7">
-      <tspan class="prompt">❯</tspan> <tspan class="plain">agent.deploy(status=</tspan><tspan class="string">"🚀 Live"</tspan><tspan class="plain">)</tspan><tspan class="cursor">█</tspan>
+      <tspan class="prompt">❯</tspan> <tspan class="plain">aditya.connect(site=</tspan><tspan class="string">"portfolio"</tspan><tspan class="plain">)</tspan><tspan class="cursor">█</tspan>
     </text>
   </g>
 </svg>
