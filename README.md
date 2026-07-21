@@ -5,13 +5,7 @@
 <!-- ========================================== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=0d1117&customColorEnd=0070f3&height=220&section=header&text=Aditya%20Varshney&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=AI%2FML%20Engineer%20%7C%20Deep%20Learning%20%26%20Computer%20Vision&descAlignY=68&descSize=16" width="100%" alt="Header Banner" />
-</div>
-
-<div align="center">
-  <p>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer;Deep+Learning+Developer;Computer+Vision+Specialist;Autonomous+AI+Architect;Open+Source+Contributor" alt="Typing Header SVG" />
-  </p>
+  <img src="./header.svg" width="100%" alt="Aditya Varshney Header Banner" />
 </div>
 
 <p align="center">
