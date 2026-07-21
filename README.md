@@ -8,6 +8,8 @@
   <img src="./github-header-banner.png" width="100%" alt="Aditya Varshney Header Banner" />
 </div>
 
+<br>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=adityavar808&color=0070f3&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/adityavar808?style=for-the-badge&logo=github&color=06b6d4&labelColor=0d1117" alt="GitHub Followers" />
@@ -35,25 +37,28 @@
 </div>
 
 <!-- ========================================== -->
-<!-- ABOUT ME & EXECUTIVE SUMMARY               -->
+<!-- ABOUT ME & EXECUTIVE SUMMARY (UI/UX CARD)  -->
 <!-- ========================================== -->
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<table border="0" cellpadding="12" cellspacing="0" width="100%">
   <tr>
-    <td width="60%" valign="top">
-      <h2 style="color: #06b6d4;">⚡ About Me & Engineering Focus</h2>
-      <p style="font-size: 15px; line-height: 1.6;">
+    <td width="55%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px;">
+      <h2 style="color: #06b6d4; margin-top: 0;">⚡ About Me & Engineering Focus</h2>
+      <p style="font-size: 14px; color: #c9d1d9; line-height: 1.6;">
         I am an <b>AI/ML Engineer</b> specializing in low-latency computer vision systems, high-frame-rate stream analysis, deep neural model optimization, and autonomous AI agents.
       </p>
-      <ul>
-        <li>🚀 <b>Core Mission:</b> Building robust, real-time visual intelligence applications and neural network pipelines.</li>
-        <li>🧠 <b>Current Focus:</b> Deep neural model quantization, real-time object tracking, and LLM-powered agents.</li>
-        <li>💡 <b>Philosophy:</b> Clean modular architecture, low latency optimization, and production-grade code.</li>
+      <ul style="font-size: 13px; color: #8b949e; line-height: 1.6; padding-left: 20px;">
+        <li>🚀 <b>Core Mission:</b> Building real-time visual intelligence applications & neural network pipelines.</li>
+        <li>🧠 <b>Current Focus:</b> Deep neural model quantization, real-time object tracking, & LLMs.</li>
+        <li>💡 <b>Philosophy:</b> Clean modular architecture, low latency optimization, & production code.</li>
         <li>💬 <b>Ask Me About:</b> PyTorch, OpenCV, YOLOv8, FastAPI, WebRTC, CUDA & AI deployments.</li>
       </ul>
     </td>
-    <td width="40%" valign="middle" align="center">
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzVlYmRmZTI0Z2phZ2M0MXp6d3d4bDJlYTVyeDBqamEzd3N5ZXR6anFhd2E3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WOBZ8CO9v74vU31j51/giphy.gif" width="90%" alt="Developer Animation" />
+    <td width="45%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px;">
+      <h3 style="color: #7928ca; margin-top: 0;">💻 Terminal Telemetry</h3>
+      <p align="center">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=06B6D4&background=0D1117&vCenter=true&multiline=true&width=360&height=170&lines=const+engineer+%3D+%7B%0A++name%3A+%22Aditya+Varshney%22%2C%0A++role%3A+%22AI%2FML+Engineer%22%2C%0A++stack%3A+%5B%22PyTorch%22%2C+%22OpenCV%22%5D%2C%0A++status%3A+%22Building+the+future...%22%0A%7D%3B" width="100%" alt="Developer Terminal SVG" />
+      </p>
     </td>
   </tr>
 </table>
@@ -68,33 +73,36 @@
 
 <h2>🛠️ Tech Stack & Engineering Toolkit</h2>
 
-<p><b>🧠 AI, Machine Learning & Computer Vision</b></p>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,python,cpp,docker" alt="AI & ML Stack" />
-  </a>
-</p>
-
-<p><b>⚙️ Programming Languages</b></p>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,cpp,js,java,c,bash" alt="Languages" />
-  </a>
-</p>
-
-<p><b>🌐 Web & Microservices</b></p>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=fastapi,django,flask,react,html,css,tailwind" alt="Web Stack" />
-  </a>
-</p>
-
-<p><b>🗄️ Databases & Version Control</b></p>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,git,github,vscode,linux" alt="Tools & DBs" />
-  </a>
-</p>
+<table border="0" cellpadding="12" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 10px; padding: 16px;">
+      <h4 style="color: #06b6d4; margin-top: 0;">🧠 AI, Machine Learning & Computer Vision</h4>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,python,cpp,docker" alt="AI & ML Stack" />
+      </a>
+    </td>
+    <td width="50%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 10px; padding: 16px;">
+      <h4 style="color: #7928ca; margin-top: 0;">⚙️ Core Programming Languages</h4>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=py,cpp,js,java,c,bash" alt="Languages" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 10px; padding: 16px;">
+      <h4 style="color: #0070f3; margin-top: 0;">🌐 Web & Microservices Frameworks</h4>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=fastapi,django,flask,react,html,css,tailwind" alt="Web Stack" />
+      </a>
+    </td>
+    <td width="50%" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 10px; padding: 16px;">
+      <h4 style="color: #26a641; margin-top: 0;">🗄️ Databases & Developer Tooling</h4>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,git,github,vscode,linux" alt="Tools & DBs" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider SVG" />
