@@ -5,7 +5,7 @@
 <!-- ========================================== -->
 
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Aditya Varshney Header Banner" />
+  <img src="./github-header-banner.png" width="100%" alt="Aditya Varshney Header Banner" />
 </div>
 
 <p align="center">
